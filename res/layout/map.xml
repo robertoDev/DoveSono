@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:a="http://schemas.android.com/apk/res/android"
+    a:layout_width="fill_parent"
+    a:layout_height="fill_parent"
+    a:padding="2px"
+    a:orientation="vertical"
+    a:background="#fff"
+>
+<!--com.google.android.maps.MapView
+    a:apiKey="07h-diInqw2IoNk1nAvH-O904OJ-8D6Aerw-hOQ"
+    a:id="@+id/mapView"
+    a:layout_width="fill_parent"
+    a:layout_height="fill_parent" /-->
+    <com.google.android.maps.MapView
+        a:apiKey="07h-diInqw2LOPLsV3OaD_WcBkYYT2WqMjkAb_Q"
+        a:id="@+id/mapView"
+        a:layout_width="fill_parent"
+        a:layout_height="fill_parent" />
+
+</LinearLayout>

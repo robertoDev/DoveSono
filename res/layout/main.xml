@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:a="http://schemas.android.com/apk/res/android"
+              a:layout_width="fill_parent"
+              a:layout_height="fill_parent"
+              a:background="#fff"
+              a:orientation="vertical"
+        >
+    <LinearLayout
+        a:layout_width="fill_parent"
+        a:layout_height="wrap_content"
+        a:orientation="horizontal"
+        >
+
+        <LinearLayout
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:orientation="vertical"
+            a:paddingRight="5px"
+            >
+            <ImageView
+                a:src="@drawable/gps_icon"
+                a:layout_width="84px"
+                a:layout_height="84px"
+                a:contentDescription="antenna"
+             />
+            <TextView
+                a:textColor="#000"
+                a:layout_width="wrap_content"
+                a:layout_height="wrap_content"
+                a:layout_gravity="center_horizontal"
+                a:text="GPS"
+                a:textSize="14px"
+            />
+            <Button
+                a:id="@+id/buttonShowG"
+                a:layout_width="fill_parent"
+                a:layout_height="35px"
+                a:text="Show" />
+        </LinearLayout>
+        <TableLayout
+             a:layout_width="fill_parent"
+             a:layout_height="wrap_content"
+             >
+             <TableRow>
+                 <TextView a:text="status:" a:textColor="#888" a:textSize="12px" a:paddingRight="6px" a:paddingBottom="2px"  a:layout_gravity="right" />
+                 <TextView a:textSize="12px" a:id="@+id/txtStatusG" a:text="..." a:textColor="#000" />
+             </TableRow>
+            <TableRow>
+                <TextView a:textSize="12px" a:text="events:" a:textColor="#888" a:paddingRight="6px" a:paddingBottom="2px"  a:layout_gravity="right" />
+                <TextView a:textSize="12px" a:id="@+id/txtEventsG" a:text="..." a:textColor="#000" />
+            </TableRow>
+            <TableRow>
+                <TextView a:textSize="12px" a:text="time:" a:textColor="#888" a:paddingRight="6px" a:paddingBottom="2px"  a:layout_gravity="right" />
+                <TextView a:textSize="12px" a:id="@+id/txtTimeG" a:text="..." a:textColor="#000" />
+            </TableRow>
+             <TableRow>
+                 <TextView a:textSize="12px" a:text="accuracy:" a:textColor="#888" a:paddingRight="6px" a:paddingBottom="2px"  a:layout_gravity="right" />
+                 <TextView a:textSize="12px" a:id="@+id/txtPrecisionG" a:text="..." a:textColor="#000" />
+             </TableRow>
+             <TableRow>
+                 <TextView a:textSize="12px" a:text="X:" a:textColor="#888" a:paddingRight="6px" a:paddingBottom="2px"  a:layout_gravity="right" />
+                 <TextView a:textSize="12px" a:id="@+id/txtXG" a:text="0.000" a:textColor="#000" />
+             </TableRow>
+             <TableRow>
+                 <TextView a:textSize="12px" a:text="Y:" a:textColor="#888" a:paddingRight="6px" a:paddingBottom="2px" a:layout_gravity="right"/>
+                 <TextView a:textSize="12px" a:id="@+id/txtYG" a:text="0.000" a:textColor="#000" />
+             </TableRow>
+             <TableRow>
+                 <TextView a:textSize="12px" a:text="Location:" a:textColor="#888" a:paddingRight="6px" a:paddingBottom="2px" />
+                 <TextView a:textSize="12px" a:id="@+id/txtLocationG" a:text="..." a:textColor="#000" />
+             </TableRow>
+         </TableLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        a:layout_width="fill_parent"
+        a:layout_height="wrap_content"
+        a:orientation="horizontal"
+        a:paddingTop="20px"
+        >
+
+        <LinearLayout
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:orientation="vertical"
+            >
+            <ImageView
+                a:src="@drawable/network_icon"
+                a:layout_width="84px"
+                a:layout_height="84px"
+                a:contentDescription="antenna"
+             />
+            <TextView
+                a:textColor="#000"
+                a:layout_width="wrap_content"
+                a:layout_height="wrap_content"
+                a:layout_gravity="center_horizontal"
+                a:text="NETWORK"
+                a:textSize="14px"
+            />
+            <Button
+                a:id="@+id/buttonShowN"
+                a:layout_width="fill_parent"
+                a:layout_height="35px"
+                a:text="Show" />
+        </LinearLayout>
+
+
+        <TableLayout
+            a:layout_width="fill_parent"
+            a:layout_height="wrap_content"
+            a:paddingLeft="10px"
+            >
+            <TableRow>
+                <TextView a:text="status:" a:textColor="#888" a:textSize="12px" a:paddingRight="6px" a:paddingBottom="2px"  a:layout_gravity="right" />
+                <TextView a:textSize="12px" a:id="@+id/txtStatusN" a:text="..." a:textColor="#000" />
+            </TableRow>
+            <TableRow>
+                <TextView a:textSize="12px" a:text="events:" a:textColor="#888" a:paddingRight="6px" a:paddingBottom="2px"  a:layout_gravity="right" />
+                <TextView a:textSize="12px" a:id="@+id/txtEventsN" a:text="..." a:textColor="#000" />
+            </TableRow>
+            <TableRow>
+                <TextView a:textSize="12px" a:text="time:" a:textColor="#888" a:paddingRight="6px" a:paddingBottom="2px"  a:layout_gravity="right" />
+                <TextView a:textSize="12px" a:id="@+id/txtTimeN" a:text="..." a:textColor="#000" />
+            </TableRow>
+            <TableRow>
+                <TextView a:textSize="12px" a:text="accuracy:" a:textColor="#888" a:paddingRight="6px" a:paddingBottom="2px"  a:layout_gravity="right" />
+                <TextView a:textSize="12px" a:id="@+id/txtPrecisionN" a:text="..." a:textColor="#000" />
+            </TableRow>
+            <TableRow>
+                <TextView a:textSize="12px" a:text="X:" a:textColor="#888" a:paddingRight="6px" a:paddingBottom="2px"  a:layout_gravity="right" />
+                <TextView a:textSize="12px" a:id="@+id/txtXN" a:text="0.000" a:textColor="#000" />
+            </TableRow>
+            <TableRow>
+                <TextView a:textSize="12px" a:text="Y:" a:textColor="#888" a:paddingRight="6px" a:paddingBottom="2px" a:layout_gravity="right"/>
+                <TextView a:textSize="12px" a:id="@+id/txtYN" a:text="0.000" a:textColor="#000" />
+            </TableRow>
+            <TableRow>
+                <TextView a:textSize="12px" a:text="Location:" a:textColor="#888" a:paddingRight="6px" a:paddingBottom="2px" />
+                <TextView a:textSize="12px" a:id="@+id/txtLocationN" a:text="..." a:textColor="#000" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+
+<!--
+        <ImageView
+            a:layout_gravity="center_horizontal"
+            a:src="@drawable/network_icon"
+            a:layout_width="64"
+            a:layout_height="64"
+            a:contentDescription="antenna"
+         />
+        <TextView
+            a:textColor="black"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:text="Device: NETWORK"
+            a:textSize="20"
+        />
+</LinearLayout>
+
+
+        <ImageView
+            a:layout_gravity="center_horizontal"
+            a:src="@drawable/network_icon"
+            a:layout_width="64"
+            a:layout_height="64"
+            a:contentDescription="antenna"
+         />
+        <TableLayout
+            a:layout_width="fill_parent"
+            a:layout_height="wrap_content"
+            >
+            <TableRow
+                a:layout_width="fill_parent"
+                a:layout_height="wrap_content"
+                >
+                <TextView
+                a:layout_width="wrap_content"
+                a:layout_height="wrap_content"
+                a:text="device"
+                />
+                <TextView
+                a:id="@+id/txtLocation"
+                a:layout_width="wrap_content"
+                a:layout_height="wrap_content"
+                a:textColor="#000000"
+                a:text="GPS"
+                />
+            </TableRow>
+            <TableRow
+                a:layout_width="fill_parent"
+                a:layout_height="wrap_content"
+                >
+                <TextView
+                a:layout_width="wrap_content"
+                a:layout_height="wrap_content"
+                a:text="status"
+                />
+                <TextView
+                a:id="@+id/txtLocation"
+                a:layout_width="wrap_content"
+                a:layout_height="wrap_content"
+                a:textColor="#000000"
+                a:text="ACTIVE"
+                />
+            </TableRow>
+
+
+
+</TableLayout>
+
+
+        </LinearLayout>
+
+    <TextView
+            a:padding="2px"
+            a:id="@+id/txtLocation"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:gravity="center_horizontal"
+            a:textColor="#000000"
+            a:text=""
+            />
+-->
+
+
+</LinearLayout>

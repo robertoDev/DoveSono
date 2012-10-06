@@ -1,0 +1,10 @@
+-- DoveSono --
+
+DoveSono è un progetto dimostrativo nato per esplorare le funzioni di geolocalizzazione
+di Android e l'integrazione con le mappe di Google.
+Permette di monitorare due sorgenti di origine per le informazioni geografiche (GPS e Network)
+e di ottenere informazioni sulla posizione e sulla precisione delle coordinate fornite.
+
+
+
+This file was modified by IntelliJ IDEA 11.1.3 for binding GitHub repository
