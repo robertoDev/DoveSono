@@ -14,7 +14,7 @@
     a:layout_width="fill_parent"
     a:layout_height="fill_parent" /-->
     <com.google.android.maps.MapView
-        a:apiKey="07h-diInqw2LOPLsV3OaD_WcBkYYT2WqMjkAb_Q"
+        a:apiKey="07h-diInqw2KTldGTDwX-ktQNdP2jjiNrabGP8Q"
         a:id="@+id/mapView"
         a:layout_width="fill_parent"
         a:layout_height="fill_parent" />
