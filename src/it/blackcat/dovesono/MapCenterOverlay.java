@@ -21,6 +21,30 @@ public class MapCenterOverlay extends Overlay {
     Resources resources=null;
     Location locationGps=null;
     Location locationNetwork=null;
+    Paint paintGps;
+    Paint paintNetwork;
+    Bitmap pointerBitmapGps;
+    Bitmap pointerBitmapNetwork;
+
+    public MapCenterOverlay(Resources res) {
+        super();
+        resources=res;
+        paintGps = new Paint();
+        paintGps.setStyle(Paint.Style.FILL);
+        paintGps.setAntiAlias(true);
+        paintGps.setColor(Color.GREEN);
+        paintGps.setAlpha(50);
+
+        paintNetwork = new Paint();
+        paintNetwork.setStyle(Paint.Style.FILL);
+        paintNetwork.setAntiAlias(true);
+        paintNetwork.setColor(Color.BLUE);
+        paintNetwork.setAlpha(50);
+
+        pointerBitmapNetwork = BitmapFactory.decodeResource( resources, R.drawable.map_pointer_n);
+        pointerBitmapGps = BitmapFactory.decodeResource( resources, R.drawable.map_pointer_g);
+
+    }
 
     public void setLocation (Location location){
         if(location.getProvider().equals("gps"))
@@ -28,6 +52,7 @@ public class MapCenterOverlay extends Overlay {
         else
             locationNetwork=location;
     }
+
     public void draw(android.graphics.Canvas canvas,MapView mapView, boolean shadow){
 
         Projection projection = mapView.getProjection();
@@ -38,17 +63,10 @@ public class MapCenterOverlay extends Overlay {
                 int lonE6=(int) Math.floor(locationGps.getLongitude() * 1.0E6);
                 int radius=(int)projection.metersToEquatorPixels(locationGps.getAccuracy());
                 GeoPoint gp=new GeoPoint(latE6,lonE6);
-
                 Point p=new Point();
                 projection.toPixels(gp, p);
-                Bitmap pointerBitmap = BitmapFactory.decodeResource( resources, R.drawable.map_pointer_g);
-                Paint paint = new Paint();
-       			paint.setStyle(Paint.Style.FILL);
-                paint.setAntiAlias(true);
-       			paint.setColor(Color.GREEN);
-                paint.setAlpha(50);
-                canvas.drawCircle(p.x,p.y, radius, paint);
-                canvas.drawBitmap(pointerBitmap,p.x,p.y,null);
+                canvas.drawCircle(p.x,p.y, radius, paintGps);
+                canvas.drawBitmap(pointerBitmapGps,p.x,p.y,null);
             }
             if(locationNetwork!=null){
                 int latE6=(int) Math.floor(locationNetwork.getLatitude() * 1.0E6);
@@ -57,19 +75,11 @@ public class MapCenterOverlay extends Overlay {
                 GeoPoint gp=new GeoPoint(latE6,lonE6);
                 Point p=new Point();
                 projection.toPixels(gp, p);
-                Bitmap pointerBitmap = BitmapFactory.decodeResource( resources, R.drawable.map_pointer_n);
-                Paint paint = new Paint();
-       			paint.setStyle(Paint.Style.FILL);
-                paint.setAntiAlias(true);
-       			paint.setColor(Color.BLUE);
-                paint.setAlpha(50);
-                canvas.drawCircle(p.x,p.y, radius, paint);
-                canvas.drawBitmap(pointerBitmap,p.x-32,p.y,null);
+                canvas.drawCircle(p.x, p.y, radius, paintNetwork);
+                // il puntatore per il network non ha la "punta" in (0,0) ma in (width,0)
+                canvas.drawBitmap(pointerBitmapNetwork, p.x - pointerBitmapNetwork.getWidth() , p.y, null);
             }
         }
     }
 
-    public void setResource(Resources res){
-        resources=res;
-    }
 }

@@ -5,6 +5,80 @@ di Android e l'integrazione con le mappe di Google.
 Permette di monitorare due sorgenti di origine per le informazioni geografiche (GPS e Network)
 e di ottenere informazioni sulla posizione e sulla precisione delle coordinate fornite.
 
+LAYOUT PER LA ROTAZIONE
+------------------------
+La MainActivity implementa un doppio layout per adattarsi all'orientamento del terminale.
+La maniera in cui viene implementato è estremamente semplice ed elegante: senza aggiungere una riga di codice
+android seleziona il layout in landscape da applicare dalla cartella layout-land (se presente)
+Duplicato il layout verticale e cambiato un linearLayout da orizzontale a verticale il gioco è fatto!
+
+
+IL CICLO DI VITA DI UNA ACTIVITY
+----------------------------------
+    0- L'activity viene eseguita una prima volta:
+        onCreate  (con savedInstanceState=null)
+        onStart
+        onResume
+
+    1- Da activity in esecuzione -> rotazione dello schermo:
+        onSaveInstanceState
+        onPause
+        onStop
+        onDestroy
+        onCreate  (con savedInstanceState!=null)
+        onStart
+        onResume
+
+    2- Da activity in esecuzione -> si porta in esecuzione un'altra activity (prendendola dalla status bar):
+        onSaveInstanceState
+        onPause
+        onStop
+
+    2.1- ritorno all'activity tramite back:
+        onRestart
+        onStart
+        onResume
+    	note: i campi hanno mantenuto i valori, le variabili pure
+
+    3- Da activity in esecuzione -> tasto back:
+        onPause
+        onStop
+        onDestroy
+
+    4- Da activity in esecuzione -> tasto menu:
+        onSaveInstanceState
+        onPause
+        onStop
+
+    4.1- Da menu -> rieseguo app:
+        onRestart
+        onStart
+        onResume
+    	note: i campi hanno mantenuto i valori, le variabili pure
+
+    5- Da activity in esecuzione -> call:
+        onSaveInstanceState
+        onPause
+        onStop
+    	note: i campi hanno mantenuto i valori, le variabili pure
+
+    5.1- Da chiamata-> termina chiamata:
+        onRestart
+        onStart
+        onResume
+    	note: i campi hanno mantenuto i valori, le variabili pure
+
+
+    6- Da activity in esecuzione -> back:
+        onPause
+        onStop
+        onDestroy
+    	note: viene terminata
+
+     */
+
+
+
 
 
 This file was modified by IntelliJ IDEA 11.1.3 for binding GitHub repository

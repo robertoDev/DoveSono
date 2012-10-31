@@ -5,7 +5,7 @@
     a:layout_width="fill_parent"
     a:layout_height="fill_parent"
     a:padding="2px"
-    a:orientation="vertical"
+    a:orientation="horizontal"
     a:background="#fff"
 >
 <!--com.google.android.maps.MapV    iew
@@ -14,9 +14,9 @@
     a:layout_width="fill_parent"
     a:layout_height="fill_parent" /-->
     <LinearLayout
-            a:orientation="horizontal"
-            a:layout_width="fill_parent"
-            a:layout_height="60dp" a:background="#d6d6d6">
+            a:orientation="vertical"
+            a:layout_width="wrap_content"
+            a:layout_height="fill_parent" a:background="#e0e0e0">
         <ImageView
                 a:layout_width="60dp"
                 a:layout_height="60dp"
@@ -26,12 +26,16 @@
                 a:layout_height="wrap_content"
                 a:layout_weight="1">
             <TableRow>
-                <TextView style="@style/cellHead" a:text="events: " />
-                <TextView style="@style/cellVal" a:id="@+id/txtEvents"/>
+                <TextView style="@style/cellHead" a:text="events: " a:layout_gravity="left"/>
             </TableRow>
             <TableRow>
-                <TextView  style="@style/cellHead" a:text="accuracy: " />
-                <TextView  style="@style/cellVal" a:id="@+id/txtPrecision"/>
+                <TextView style="@style/cellVal" a:id="@+id/txtEvents" a:layout_gravity="right"/>
+            </TableRow>
+            <TableRow>
+                <TextView  style="@style/cellHead" a:text="accuracy: " a:layout_gravity="left"/>
+            </TableRow>
+            <TableRow>
+                <TextView  style="@style/cellVal" a:id="@+id/txtPrecision" a:layout_gravity="right"/>
             </TableRow>
         </TableLayout>
         <Button
@@ -41,12 +45,11 @@
                 a:id="@+id/buttonBack" a:layout_gravity="right" a:layout_weight="0"/>
 
     </LinearLayout>
-
     <LinearLayout
-        a:orientation="horizontal"
-        a:layout_width="fill_parent"
-        a:layout_height="1dp" a:background="#565656"
-    />
+            a:orientation="vertical"
+            a:layout_height="fill_parent"
+            a:layout_width="1dp" a:background="#565656"
+            />
 
     <com.google.android.maps.MapView
         a:apiKey="07h-diInqw2KTldGTDwX-ktQNdP2jjiNrabGP8Q"

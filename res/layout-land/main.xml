@@ -3,13 +3,13 @@
 <LinearLayout xmlns:a="http://schemas.android.com/apk/res/android"
               a:layout_width="fill_parent"
               a:layout_height="fill_parent"
-              a:orientation="vertical"
-        >
+              a:orientation="horizontal"
+              a:gravity="center_vertical">
     <LinearLayout
         a:layout_width="wrap_content"
         a:layout_height="wrap_content"
         a:orientation="horizontal"
-        a:layout_weight="1" a:gravity="center">
+        a:layout_weight="1">
 
         <LinearLayout
             a:layout_width="wrap_content"
@@ -34,7 +34,7 @@
             <Button
                 a:id="@+id/buttonShowG"
                 a:layout_width="fill_parent"
-                a:layout_height="48dp"
+                a:layout_height="35dp"
                 a:text="Show" />
         </LinearLayout>
         <TableLayout
@@ -81,14 +81,13 @@
         a:layout_width="wrap_content"
         a:layout_height="wrap_content"
         a:orientation="horizontal"
-        a:paddingTop="20px"
-        a:layout_weight="1" a:gravity="center">
+        a:layout_weight="1">
 
         <LinearLayout
             a:layout_width="wrap_content"
             a:layout_height="wrap_content"
             a:orientation="vertical"
-            >
+            a:paddingRight="5px">
             <ImageView
                 a:src="@drawable/network_icon"
                 a:layout_width="84dp"
@@ -106,7 +105,7 @@
             <Button
                 a:id="@+id/buttonShowN"
                 a:layout_width="fill_parent"
-                a:layout_height="48dp"
+                a:layout_height="35dp"
                 a:text="Show" />
         </LinearLayout>
 
@@ -149,7 +148,5 @@
             </TableRow>
         </TableLayout>
     </LinearLayout>
-
-
 
 </LinearLayout>
