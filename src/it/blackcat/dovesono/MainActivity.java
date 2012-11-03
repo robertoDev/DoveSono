@@ -1,6 +1,7 @@
 package it.blackcat.dovesono;
 
 import android.app.Activity;
+import android.app.Dialog;
 import android.content.Intent;
 import android.location.*;
 import android.os.Bundle;
@@ -16,29 +17,40 @@ import java.util.List;
 
 /**
  * Created with IntelliJ IDEA.
- * User: homeuser
+ * User: Roberto Girelli
  * Date: 10/04/12
  * Time: 20.10
- * To change this template use File | Settings | File Templates.
+ *
+ * DoveSono?
+ * E' una applicazione dimostrativa sulla geolocalizzazione in Android.
+ * Permette di monitorare le posizioni restituite dai due location provider (GPS e Network),
+ * di vederne gli attributi e di rappresentarle sulle Google Maps.
+ *
  */
 public class MainActivity extends Activity implements LocationListener, OnClickListener {
-    static final String EVENTS_COUNT_N = "evN";
-    static final String EVENTS_COUNT_G = "evG";
-    static final int OLD_EVENT_TIME = (1000* 60 * 120);
 
+    // Mantengo in maniera statica un riferimento all'istanza usata:
     static MainActivity myInstance;
     {
         myInstance=this;
     }
 
-    Location lastGpsLocation=null;
-    Location lastNetworkLocation=null;
 
-    int eventsN=0;
-    int eventsG=0;
+    Dialog infoDialog;      // Dialog delle info
+    static final int OLD_EVENT_TIME = (1000* 60 * 120);     // Se uno degli eventi visualizzati è più vecchio di
+                                                            // questa soglia verrà visualizzato accanto un warning "(OLD)":
+
+
+    Location lastGpsLocation=null;      // ultima location del provider Network
+    Location lastNetworkLocation=null;  // ultima location del provider GPS
+
+    int eventsN=0;      // contatore di eventi per provider Network
+    int eventsG=0;      // contatore di eventi per provider GPS
+
     //----------------------------------------------------------------------------- LocationListener methods:
+
     public void onLocationChanged(Location currentLocation) {
-         traceLocation(currentLocation);
+         traceLocation(currentLocation,true);
     }
 
     public void onStatusChanged(String s, int i, Bundle bundle) {
@@ -46,13 +58,15 @@ public class MainActivity extends Activity implements LocationListener, OnClickL
     }
 
     public void onProviderEnabled(String s) {
-        checkStatus();
+        traceStatus();
     }
 
     public void onProviderDisabled(String s) {
-        checkStatus();
+        traceStatus();
     }
+
 //---------------------------------------------------------------------------- OnClickListener  methods:
+
     public void onClick(View v) {
         int vId=v.getId();
         switch (vId){
@@ -62,8 +76,25 @@ public class MainActivity extends Activity implements LocationListener, OnClickL
             case R.id.buttonShowN:
                 showMap(LocationManager.NETWORK_PROVIDER);
                 break;
+            case R.id.imageLogo:
+                infoDialog.show();
+                break;
+
+            case R.id.buttonInfoOk:
+                infoDialog.cancel();
+                break;
+
         }
     }
+
+
+    private void showMap(String provider){
+        // visualizzo la mappa passandogli la mainLocation
+        Intent ni=new Intent(this, MapActivity.class);
+        ni.putExtra("provider",provider);
+        startActivity(ni);
+    }
+
 
     //---------------------------------------------------------------------------- Activity  methods:
     public void onCreate(Bundle savedInstanceState) {
@@ -73,86 +104,104 @@ public class MainActivity extends Activity implements LocationListener, OnClickL
         setContentView(R.layout.main);
         findViewById(R.id.buttonShowG).setOnClickListener(this);
         findViewById(R.id.buttonShowN).setOnClickListener(this);
+        findViewById(R.id.imageLogo).setOnClickListener(this);
 
-// Check whether we're recreating a previously destroyed instance
+        // setup del dialog
+        infoDialog = new Dialog(MainActivity.this);
+        infoDialog.setContentView(R.layout.info_dialog);
+        infoDialog.setTitle("About");
+        infoDialog.setCancelable(true);
+        infoDialog.findViewById(R.id.buttonInfoOk).setOnClickListener(this);
+
+        // Verifico se sto ricreando un'istanza distrutta precedentemente:
         if (savedInstanceState != null) {
-            // Restore value of members from saved state
-            eventsG = savedInstanceState.getInt(EVENTS_COUNT_G);
-            eventsN = savedInstanceState.getInt(EVENTS_COUNT_N);
+            // Ripristino dei valori precedentemente salvati:
+            eventsG = savedInstanceState.getInt("frm_" +R.id.txtEventsG );
+            eventsN = savedInstanceState.getInt("frm_" +R.id.txtEventsN );
             Log.d("*lifecycle*","(restore instance state)");
         } else {
-            // Probably initialize members with default values for a new instance
             eventsG = 0;
             eventsN = 0;
-            // look if i got a last know location:
-            LocationManager locationManager = (LocationManager) getSystemService(LOCATION_SERVICE);
-            traceLocation(locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER));
-            traceLocation(locationManager.getLastKnownLocation(LocationManager.NETWORK_PROVIDER));
-
         }
+        LocationManager locationManager = (LocationManager) getSystemService(LOCATION_SERVICE);
+        traceLocation(locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER), false);
+        traceLocation(locationManager.getLastKnownLocation(LocationManager.NETWORK_PROVIDER),false);
 
         startEvents();
-        checkStatus();
+        traceStatus();
     }
+
 
     @Override
     protected void onStart() {
         Log.d("*lifecycle*","onStart");
-        super.onStart();    //To change body of overridden methods use File | Settings | File Templates.
+        super.onStart();
     }
 
     @Override
     protected void onStop() {
         Log.d("*lifecycle*","onStop");
-        super.onStop();    //To change body of overridden methods use File | Settings | File Templates.
+        super.onStop();
     }
 
     @Override
     protected void onRestart() {
         Log.d("*lifecycle*","onRestart");
-        super.onRestart();    //To change body of overridden methods use File | Settings | File Templates.
+        super.onRestart();
     }
 
     @Override
     protected void onResume() {
         Log.d("*lifecycle*","onResume");
         super.onResume();
-//        checkStatus();
+//        traceStatus();
     }
 
     @Override
     protected void onPause() {
         Log.d("*lifecycle*","onPause");
         super.onPause();
-//        locationManager.removeUpdates(this);
     }
 
     @Override
     protected void onDestroy() {
         Log.d("*lifecycle*","onDestroy");
         super.onDestroy();
-//        locationManager.removeUpdates(this);
     }
 
     @Override
     public void onSaveInstanceState(Bundle savedInstanceState) {
         Log.d("*lifecycle*","onSaveInstanceState");
 
-        // Save the user's current game state
-        savedInstanceState.putInt(EVENTS_COUNT_G, eventsG);
-        savedInstanceState.putInt(EVENTS_COUNT_N, eventsN);
+        // Salvo alcuni valori da ripristinare se l'istanza verrà ricreata
+        savedInstanceState.putInt("frm_" +R.id.txtEventsG , eventsG);
+        savedInstanceState.putInt("frm_" +R.id.txtEventsN , eventsN);
 
-        // Always call the superclass so it can save the view hierarchy state
         super.onSaveInstanceState(savedInstanceState);
     }
 
 
     //----------------------------------------------------------------------------
+    /**
+     * Avvia la rilevazione degli eventi
+     */
+    void startEvents(){
 
+        LocationManager locationManager = (LocationManager) getSystemService(LOCATION_SERVICE);
+        if(locationManager.getProvider(LocationManager.GPS_PROVIDER)!=null){
+            locationManager.requestLocationUpdates ( LocationManager.GPS_PROVIDER, 10000, 10,  this);
+        }
 
+        if(locationManager.getProvider(LocationManager.NETWORK_PROVIDER)!=null){
+            locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 30000, 50, this);
+        }
+    }
 
-    private void checkStatus(){
-
+    /**
+     * visualizza lo stato dei providers
+     */
+    private void traceStatus(){
+//  -----------------------------------------------------
         LocationManager locationManager = (LocationManager) getSystemService(LOCATION_SERVICE);
 
         String txtStatus;
@@ -175,28 +224,13 @@ public class MainActivity extends Activity implements LocationListener, OnClickL
         displayField(R.id.txtStatusN,txtStatus);
     }
 
-    void startEvents(){
-
-        LocationManager locationManager = (LocationManager) getSystemService(LOCATION_SERVICE);
-        if(locationManager.getProvider(LocationManager.GPS_PROVIDER)!=null){
-            locationManager.requestLocationUpdates ( LocationManager.GPS_PROVIDER, 10000, 10,  this);
-        }
-
-        if(locationManager.getProvider(LocationManager.NETWORK_PROVIDER)!=null){
-            locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 40000, 0, this);
-        }
-    }
-
-
-    private void displayField(int field, String value){
-        ((TextView)findViewById(field)).setText(value);
-    }
-
     /**
      * è arrivato un evento da tracciare
      * @param location nuova location da tracciare
+     * @param flagInc  se l'evento è da conteggiare
      */
-    void traceLocation(Location location){
+    void traceLocation(Location location, boolean flagInc){
+//  -----------------------------------------------------
 
         if (location!=null){
             // costruisco una stringa descrittiva per l'accuratezza
@@ -214,7 +248,7 @@ public class MainActivity extends Activity implements LocationListener, OnClickL
             // distinguo gps/network
             if(location.getProvider().equals(LocationManager.GPS_PROVIDER)){
                 lastGpsLocation=location;
-                eventsG++;              // conteggio gli eventi processati per GPS
+                if (flagInc) eventsG++;              // conteggio gli eventi processati per GPS
 
                 // visualizzo le info sulla location:
                 displayField(R.id.txtXG,String.valueOf(location.getLatitude()));
@@ -227,7 +261,7 @@ public class MainActivity extends Activity implements LocationListener, OnClickL
 
             }else if(location.getProvider().equals(LocationManager.NETWORK_PROVIDER)){
                 lastNetworkLocation=location;
-                eventsN++;             // conteggio gli eventi processati per NETWORK
+                if (flagInc) eventsN++;             // conteggio gli eventi processati per NETWORK
                 // visualizzo le info sulla location
                 displayField(R.id.txtXN,String.valueOf(location.getLatitude()));
                 displayField(R.id.txtYN,String.valueOf(location.getLongitude()));
@@ -245,7 +279,15 @@ public class MainActivity extends Activity implements LocationListener, OnClickL
         }
     }
 
+
+    private void displayField(int field, String value){
+//  -----------------------------------------------------
+        ((TextView)findViewById(field)).setText(value);
+    }
+
+
     private String getAddress(Location currentLocation){
+//  -----------------------------------------------------
         String txt="";
         if (currentLocation==null) {
             txt="waiting location...";
@@ -271,16 +313,4 @@ public class MainActivity extends Activity implements LocationListener, OnClickL
         }
         return(txt);
     }
-
-
-    private void showMap(String provider){
-        // visualizzo la mappa passandogli la mainLocation
-        Intent ni=new Intent(this, MapActivity.class);
-        ni.putExtra("provider",provider);
-        startActivity(ni);
-
-    }
-
-
-
 }

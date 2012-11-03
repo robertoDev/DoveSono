@@ -6,10 +6,35 @@
               a:orientation="vertical"
         >
     <LinearLayout
+            a:orientation="horizontal"
+            a:layout_width="fill_parent"
+            a:layout_height="wrap_content" a:gravity="clip_horizontal" style="@android:style/ButtonBar">
+        <ImageView a:src="@drawable/blackcat_128"
+                   a:layout_width="48dp"
+                   a:layout_height="48dp"
+                   a:id="@+id/imageLogo"
+                />
+
+        <TextView
+                a:layout_width="wrap_content"
+                a:layout_height="48dp"
+                a:text="Dove Sono?"
+                a:id="@+id/textView" a:singleLine="true" a:textSize="24dp" a:typeface="sans"
+                a:textStyle="bold" a:gravity="center_vertical|center_horizontal" a:layout_weight="1" a:autoText="false"
+                a:textColor="@android:color/primary_text_light"/>
+
+    </LinearLayout>
+    <LinearLayout
+            a:orientation="horizontal"
+            a:layout_width="fill_parent"
+            a:layout_height="1dp" a:background="#565656"
+            />
+
+    <LinearLayout
         a:layout_width="wrap_content"
         a:layout_height="wrap_content"
         a:orientation="horizontal"
-        a:layout_weight="1" a:gravity="center">
+        a:layout_weight="1" a:gravity="center" a:padding="3dp">
 
         <LinearLayout
             a:layout_width="wrap_content"
@@ -81,8 +106,7 @@
         a:layout_width="wrap_content"
         a:layout_height="wrap_content"
         a:orientation="horizontal"
-        a:paddingTop="20px"
-        a:layout_weight="1" a:gravity="center">
+        a:layout_weight="1" a:gravity="center" a:padding="3dp">
 
         <LinearLayout
             a:layout_width="wrap_content"

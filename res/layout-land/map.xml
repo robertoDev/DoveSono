@@ -15,8 +15,8 @@
     a:layout_height="fill_parent" /-->
     <LinearLayout
             a:orientation="vertical"
-            a:layout_width="wrap_content"
-            a:layout_height="fill_parent" a:background="#e0e0e0">
+            a:layout_width="65dp"
+            a:layout_height="fill_parent" a:baselineAligned="true" style="@android:style/ButtonBar">
         <ImageView
                 a:layout_width="60dp"
                 a:layout_height="60dp"

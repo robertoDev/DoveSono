@@ -16,7 +16,7 @@
     <LinearLayout
             a:orientation="horizontal"
             a:layout_width="fill_parent"
-            a:layout_height="60dp" a:background="#d6d6d6">
+            a:layout_height="65dp" style="@android:style/ButtonBar">
         <ImageView
                 a:layout_width="60dp"
                 a:layout_height="60dp"
@@ -36,7 +36,7 @@
         </TableLayout>
         <Button
                 a:layout_width="60dp"
-                a:layout_height="60dp"
+                a:layout_height="fill_parent"
                 a:text="Back"
                 a:id="@+id/buttonBack" a:layout_gravity="right" a:layout_weight="0"/>
 
