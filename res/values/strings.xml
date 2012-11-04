@@ -1,5 +1,21 @@
 <resources>
-    <string name="app_name">DoveSono</string>
-    <string name="app_about">Questa è una applicazione dimostrativa sulla geolocalizzazione in Android.\nPermette di monitorare le posizioni restituite dai due location provider (GPS e Network), di vederne gli attributi e di rappresentarle sulle Google Maps.
+    <string name="app_name">DoveSono?</string>
+    <string name="app_about">DoveSono is a geolocalization app for monitoring GPS and Network location providers.\n It shows location attributes and displays them by Google Maps
+
     </string><string name="copyright">2012 BlackCat Software</string><string name="confirm">Ok</string>
+
+<!-- main layout -->
+    <string name="text_gps">GPS</string>
+    <string name="text_network">Network</string>
+    <string name="text_show">Show</string>
+    <!-- location properties table -->
+        <string name="text_status">status</string>
+        <string name="text_events">events</string>
+        <string name="text_time">time</string>
+        <string name="text_accuracy">accuracy</string>
+        <string name="text_latitude">latitude</string>
+        <string name="text_longitude">longitude</string>
+        <string name="text_altitude">altitude</string>
+        <string name="text_location">location</string>
+
 </resources>

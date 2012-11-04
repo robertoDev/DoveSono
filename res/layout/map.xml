@@ -6,52 +6,46 @@
     a:layout_height="fill_parent"
     a:padding="2px"
     a:orientation="vertical"
-    a:background="#fff"
->
-<!--com.google.android.maps.MapV    iew
-    a:apiKey="07h-diInqw2IoNk1nAvH-O904OJ-8D6Aerw-hOQ"
-    a:id="@+id/mapView"
-    a:layout_width="fill_parent"
-    a:layout_height="fill_parent" /-->
+    a:background="#fff">
     <LinearLayout
-            a:orientation="horizontal"
-            a:layout_width="fill_parent"
-            a:layout_height="65dp" style="@android:style/ButtonBar">
+        a:orientation="horizontal"
+        a:layout_width="fill_parent"
+        a:layout_height="65dp"
+        style="@android:style/ButtonBar">
         <ImageView
-                a:layout_width="60dp"
-                a:layout_height="60dp"
-                a:id="@+id/providerIcon" a:src="@drawable/gps_icon" a:layout_weight="0"/>
+            a:layout_width="60dp"
+            a:layout_height="60dp"
+            a:id="@+id/providerIcon"
+            a:layout_weight="0"/>
         <TableLayout
-                a:layout_width="wrap_content"
-                a:layout_height="wrap_content"
-                a:layout_weight="1">
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:layout_weight="1">
             <TableRow>
-                <TextView style="@style/cellHead" a:text="events: " />
+                <TextView style="@style/cellHead" a:text="@string/text_events" />
                 <TextView style="@style/cellVal" a:id="@+id/txtEvents"/>
             </TableRow>
             <TableRow>
-                <TextView  style="@style/cellHead" a:text="accuracy: " />
+                <TextView  style="@style/cellHead" a:text="@string/text_accuracy" />
                 <TextView  style="@style/cellVal" a:id="@+id/txtPrecision"/>
             </TableRow>
         </TableLayout>
         <Button
-                a:layout_width="60dp"
-                a:layout_height="fill_parent"
-                a:text="Back"
-                a:id="@+id/buttonBack" a:layout_gravity="right" a:layout_weight="0"/>
-
+            a:layout_width="60dp"
+            a:layout_height="fill_parent"
+            a:text="Back"
+            a:id="@+id/buttonBack"
+            a:layout_gravity="right"
+            a:layout_weight="0"/>
     </LinearLayout>
-
     <LinearLayout
         a:orientation="horizontal"
         a:layout_width="fill_parent"
-        a:layout_height="1dp" a:background="#565656"
-    />
-
+        a:layout_height="1dp"
+        a:background="#565656"/>
     <com.google.android.maps.MapView
         a:apiKey="07h-diInqw2KTldGTDwX-ktQNdP2jjiNrabGP8Q"
         a:id="@+id/mapView"
         a:layout_width="fill_parent"
         a:layout_height="fill_parent" />
-
 </LinearLayout>

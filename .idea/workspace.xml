@@ -31,93 +31,87 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/android-support-v4.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/android_support_v4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gen/it/blackcat/Manifest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/info_dialog.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout-land/info_dialog.xml" afterPath="$PROJECT_DIR$/res/layout-land/info_dialog.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout-land/main.xml" afterPath="$PROJECT_DIR$/res/layout-land/main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout-land/map.xml" afterPath="$PROJECT_DIR$/res/layout-land/map.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/info_dialog.xml" afterPath="$PROJECT_DIR$/res/layout/info_dialog.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/main.xml" afterPath="$PROJECT_DIR$/res/layout/main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/map.xml" afterPath="$PROJECT_DIR$/res/layout/map.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
     </list>
     <ignored path="DoveSono.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351986817849" ignored="false" />
-    <file path="/info_dialog.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351986260787" ignored="false" />
-    <file path="/strings.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351985890107" ignored="false" />
-    <file path="/MainActivity.java" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351983770053" ignored="false" />
-    <file path="/fragment.java" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351979082581" ignored="false" />
-    <file path="/main.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351975785359" ignored="false" />
-    <file path="/FireMissilesDialogFragment.java" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351901274232" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/android/lib/android.jar!/org/jetbrains/android/android.xsd" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351877067759" ignored="false" />
-    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy3046047939408621747tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351723088995" ignored="false" />
-    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy3626146887877689568tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351715610935" ignored="false" />
-    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy8839097107955374116tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351715557732" ignored="false" />
-    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy5938648963700864674tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351715451769" ignored="false" />
-    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy5104828595367257517tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351714862091" ignored="false" />
-    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy7920541623377237207tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351714548027" ignored="false" />
-    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy2893629087377708590tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351714523114" ignored="false" />
-    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy7865776612955174086tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351714481750" ignored="false" />
-    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy3961600543666197590tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351714031303" ignored="false" />
-    <file path="/styles.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351713864284" ignored="false" />
-    <file path="/MapActivity.java" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351684519361" ignored="false" />
-    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy4068786476889770463tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351537844863" ignored="false" />
-    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy5648008074417465432tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351537762499" ignored="false" />
-    <file path="/map.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351537748305" ignored="false" />
-    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy3840430680119930095tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351537497726" ignored="false" />
-    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy9086032324179297144tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351537088931" ignored="false" />
-    <file path="/textlines.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351536951543" ignored="false" />
-    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy3302527729106535516tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351536453218" ignored="false" />
-    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy1015425315265425281tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351535989766" ignored="false" />
-    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy6056234629298166115tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351535637104" ignored="false" />
-    <file path="/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351535633226" ignored="false" />
-    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy1760160381802952462tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351535388389" ignored="false" />
-    <file path="/a.dummy" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351532534397" ignored="false" />
-    <file path="/MapCenterOverlay.java" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351531809734" ignored="false" />
-    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy6132234873307845939tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351530662710" ignored="false" />
-    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy6274240278995382726tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351348338537" ignored="false" />
-    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy8744950588995506237tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351346196287" ignored="false" />
-    <file path="/README" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351346082672" ignored="false" />
-    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy2719258496234599983tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351345716718" ignored="false" />
-    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy3072282978768377117tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351345658099" ignored="false" />
-    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy2909176750415202434tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351345635562" ignored="false" />
-    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy6748841223293692955tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351345487350" ignored="false" />
-    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy2212863922049820326tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351345363609" ignored="false" />
-    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy148315412205156856tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351345181975" ignored="false" />
-    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy3171388081153895427tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351331641945" ignored="false" />
-    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy253687403476780531tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351108212074" ignored="false" />
-    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy2914649406838185900tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351449448526" ignored="false" />
-    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy355702030216010136tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351450470036" ignored="false" />
-    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy6416961723442682966tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351450526689" ignored="false" />
-    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy194519372384684601tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351451039085" ignored="false" />
-    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy5923630672027782620tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351514486264" ignored="false" />
-    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy6322613574506279144tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351517515372" ignored="false" />
-    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy2718064494888339355tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351518642536" ignored="false" />
-    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy1837909286801453631tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351549583023" ignored="false" />
-    <file path="/a.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351702589206" ignored="false" />
-    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy881344155002635713tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351702754943" ignored="false" />
-    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy8974042002926548837tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351703083208" ignored="false" />
-    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy3345074751200926448tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351707173935" ignored="false" />
-    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy1343028396038570147tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351707356555" ignored="false" />
-    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy8153681065422236568tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351709467045" ignored="false" />
-    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy8514231784643720806tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351764355362" ignored="false" />
-    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy4773546886204923222tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351764460123" ignored="false" />
-    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy634085853026757745tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351764846254" ignored="false" />
-    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy9015101672958629439tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351764892340" ignored="false" />
-    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy280849874564394777tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351764975111" ignored="false" />
-    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy5223205876846609057tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351765044832" ignored="false" />
-    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy6130944179568641773tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351765123182" ignored="false" />
-    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy7078052252587677568tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351765282662" ignored="false" />
-    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy3244599062301200892tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351765488058" ignored="false" />
-    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy6190730494905222029tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351765578052" ignored="false" />
-    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy5838531178199967848tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351765648463" ignored="false" />
+    <file path="/map.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1352020594807" ignored="false" />
+    <file path="/strings.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1352020360878" ignored="false" />
+    <file path="/info_dialog.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1352019552106" ignored="false" />
+    <file path="/main.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1352019044085" ignored="false" />
+    <file path="/Dummy.txt" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1352017332834" ignored="false" />
     <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy620767210634885689tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351765668514" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy5838531178199967848tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351765648463" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy6190730494905222029tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351765578052" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy3244599062301200892tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351765488058" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy7078052252587677568tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351765282662" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy6130944179568641773tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351765123182" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy5223205876846609057tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351765044832" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy280849874564394777tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351764975111" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy9015101672958629439tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351764892340" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy634085853026757745tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351764846254" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy4773546886204923222tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351764460123" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy8514231784643720806tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351764355362" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy8153681065422236568tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351709467045" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy1343028396038570147tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351707356555" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy3345074751200926448tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351707173935" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy8974042002926548837tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351703083208" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy881344155002635713tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351702754943" ignored="false" />
+    <file path="/a.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351702589206" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy1837909286801453631tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351549583023" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy2718064494888339355tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351518642536" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy6322613574506279144tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351517515372" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy5923630672027782620tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351514486264" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy194519372384684601tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351451039085" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy6416961723442682966tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351450526689" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy355702030216010136tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351450470036" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy2914649406838185900tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351449448526" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy253687403476780531tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351108212074" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy3171388081153895427tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351331641945" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy148315412205156856tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351345181975" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy2212863922049820326tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351345363609" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy6748841223293692955tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351345487350" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy2909176750415202434tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351345635562" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy3072282978768377117tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351345658099" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy2719258496234599983tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351345716718" ignored="false" />
+    <file path="/README" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351346082672" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy8744950588995506237tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351346196287" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy6274240278995382726tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351348338537" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy6132234873307845939tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351530662710" ignored="false" />
+    <file path="/MapCenterOverlay.java" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351531809734" ignored="false" />
+    <file path="/a.dummy" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351532534397" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy1760160381802952462tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351535388389" ignored="false" />
+    <file path="/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351535633226" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy6056234629298166115tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351535637104" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy1015425315265425281tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351535989766" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy3302527729106535516tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351536453218" ignored="false" />
+    <file path="/textlines.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351536951543" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy9086032324179297144tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351537088931" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy3840430680119930095tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351537497726" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy5648008074417465432tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351537762499" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy4068786476889770463tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351537844863" ignored="false" />
+    <file path="/MapActivity.java" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351684519361" ignored="false" />
+    <file path="/styles.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351713864284" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy3961600543666197590tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351714031303" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy7865776612955174086tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351714481750" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy2893629087377708590tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351714523114" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy7920541623377237207tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351714548027" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy5104828595367257517tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351714862091" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy5938648963700864674tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351715451769" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy8839097107955374116tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351715557732" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy3626146887877689568tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351715610935" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy3046047939408621747tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351723088995" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/android/lib/android.jar!/org/jetbrains/android/android.xsd" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351877067759" ignored="false" />
+    <file path="/FireMissilesDialogFragment.java" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351901274232" ignored="false" />
+    <file path="/fragment.java" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351979082581" ignored="false" />
+    <file path="/MainActivity.java" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351983770053" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,6 +126,9 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <breakpoint_rules default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -166,9 +163,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <breakpoint_rules default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -182,7 +176,7 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/it/blackcat/dovesono/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="106" column="0" selection-start="3286" selection-end="3286" vertical-scroll-proportion="-4.76">
+            <state line="106" column="0" selection-start="3286" selection-end="3286" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -199,68 +193,98 @@
       </file>
       <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="446" selection-end="639" vertical-scroll-proportion="-5.44">
-              <folding />
-            </state>
-          </provider>
           <provider editor-type-id="android-designer">
             <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="20" selection-start="691" selection-end="691" vertical-scroll-proportion="-3.38">
+              <folding>
+                <element signature="tag#LinearLayout#2;tag#LinearLayout#0" expanded="false" />
+                <element signature="tag#LinearLayout#3;tag#LinearLayout#0" expanded="false" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout-land/main.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="24" selection-start="1010" selection-end="1010" vertical-scroll-proportion="-4.76">
-              <folding />
-            </state>
-          </provider>
           <provider editor-type-id="android-designer">
             <state />
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="info_dialog.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/res/layout/info_dialog.xml">
-          <provider editor-type-id="text-editor">
-            <state line="6" column="42" selection-start="264" selection-end="264" vertical-scroll-proportion="-4.08">
-              <folding />
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="170" column="31" selection-start="6961" selection-end="6961" vertical-scroll-proportion="-3.06">
+              <folding>
+                <element signature="tag#LinearLayout#0;tag#LinearLayout#0" expanded="false" />
+                <element signature="tag#LinearLayout#1;tag#LinearLayout#0" expanded="false" />
+                <element signature="tag#LinearLayout#2;tag#LinearLayout#0" expanded="false" />
+                <element signature="tag#LinearLayout#0;tag#LinearLayout#2;tag#LinearLayout#0" expanded="false" />
+                <element signature="tag#LinearLayout#1;tag#LinearLayout#2;tag#LinearLayout#0" expanded="false" />
+              </folding>
             </state>
           </provider>
-          <provider selected="true" editor-type-id="android-designer">
+        </entry>
+      </file>
+      <file leaf-file-name="info_dialog.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/info_dialog.xml">
+          <provider editor-type-id="android-designer">
             <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="0" selection-start="725" selection-end="725" vertical-scroll-proportion="-7.82">
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="map.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/map.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="84" selection-start="371" selection-end="371" vertical-scroll-proportion="-4.08">
+            <state line="32" column="0" selection-start="574" selection-end="1147" vertical-scroll-proportion="-6.0">
               <folding />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="map.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/res/layout-land/map.xml">
           <provider editor-type-id="android-designer">
             <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="112" selection-start="628" selection-end="628" vertical-scroll-proportion="0.08522727">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MapActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/it/blackcat/dovesono/MapActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="58" column="0" selection-start="1651" selection-end="1651" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="info_dialog.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout-land/info_dialog.xml">
-          <provider editor-type-id="text-editor">
-            <state line="13" column="79" selection-start="764" selection-end="764" vertical-scroll-proportion="-6.16">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="63" selection-start="748" selection-end="748" vertical-scroll-proportion="-7.48">
               <folding />
             </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="317" selection-end="317" vertical-scroll-proportion="-2.04">
+            <state line="4" column="92" selection-start="330" selection-end="330" vertical-scroll-proportion="-2.72">
               <folding />
             </state>
           </provider>
@@ -291,16 +315,16 @@
         <option value="$PROJECT_DIR$/src/it/blackcat/dovesono/MapCenterOverlay.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/res/values/styles.xml" />
-        <option value="$PROJECT_DIR$/res/layout-land/map.xml" />
-        <option value="$PROJECT_DIR$/res/layout/map.xml" />
         <option value="$PROJECT_DIR$/src/it/blackcat/dovesono/FireMissilesDialogFragment.java" />
         <option value="$PROJECT_DIR$/res/drawable/textlines.xml" />
-        <option value="$PROJECT_DIR$/res/layout/main.xml" />
         <option value="$PROJECT_DIR$/src/it/blackcat/dovesono/MainActivity.java" />
         <option value="$PROJECT_DIR$/res/layout-land/main.xml" />
-        <option value="$PROJECT_DIR$/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/res/layout-land/info_dialog.xml" />
+        <option value="$PROJECT_DIR$/res/layout/main.xml" />
         <option value="$PROJECT_DIR$/res/layout/info_dialog.xml" />
+        <option value="$PROJECT_DIR$/res/layout-land/info_dialog.xml" />
+        <option value="$PROJECT_DIR$/res/layout/map.xml" />
+        <option value="$PROJECT_DIR$/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/res/layout-land/map.xml" />
       </list>
     </option>
   </component>
@@ -355,16 +379,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -535,6 +549,16 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -557,8 +581,8 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -735,7 +759,11 @@
       <created>1351986820095</created>
       <updated>1351986820095</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="versione 1.5">
+      <created>1351987407155</created>
+      <updated>1351987407155</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -760,10 +788,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15136299" sideWeight="0.84005564" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30846485" sideWeight="0.84005564" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15136299" sideWeight="0.57023644" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3053161" sideWeight="0.57023644" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2861251" sideWeight="0.67178774" order="6" side_tool="false" content_ui="tabs" x="595" y="14" width="643" height="876" />
@@ -779,7 +807,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18678162" sideWeight="0.84005564" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18606322" sideWeight="0.84005564" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32684284" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -849,20 +877,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gen/it/blackcat/BuildConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="11" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gen/it/blackcat/R.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="19" selection-start="130" selection-end="130" vertical-scroll-proportion="0.09864604">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gen/it/blackcat/Manifest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="19" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0">
@@ -872,108 +886,122 @@
     </entry>
     <entry file="jar://D:/Program Files/Android/android-sdk/platforms/android-10/android.jar!/android/os/Looper.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="1017" selection-end="1017" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="30" column="0" selection-start="1017" selection-end="1017" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://D:/Program Files/Android/android-sdk/platforms/android-10/android.jar!/java/lang/reflect/Method.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="0" selection-start="2049" selection-end="2049" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="50" column="0" selection-start="2049" selection-end="2049" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://D:/Program Files/Android/android-sdk/platforms/android-10/android.jar!/java/lang/Class.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="122" column="0" selection-start="5686" selection-end="5686" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="122" column="0" selection-start="5686" selection-end="5686" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://D:/Program Files/Android/android-sdk/platforms/android-10/android.jar!/android/app/Activity.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="183" column="22" selection-start="8020" selection-end="8020" vertical-scroll-proportion="0.33254156">
-          <folding />
-        </state>
+        <state line="183" column="22" selection-start="8020" selection-end="8020" vertical-scroll-proportion="0.33254156" />
       </provider>
     </entry>
     <entry file="jar://D:/Program Files/Android/android-sdk/platforms/android-10/android.jar!/android/os/Handler.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="16" selection-start="564" selection-end="564" vertical-scroll-proportion="0.33179724">
-          <folding />
-        </state>
+        <state line="17" column="16" selection-start="564" selection-end="564" vertical-scroll-proportion="0.33179724" />
       </provider>
     </entry>
     <entry file="jar://D:/Program Files/Android/android-sdk/platforms/android-10/android.jar!/android/view/View.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/it/blackcat/dovesono/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="0" selection-start="3286" selection-end="3286" vertical-scroll-proportion="-4.76">
+        <state line="106" column="0" selection-start="3286" selection-end="3286" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="446" selection-end="639" vertical-scroll-proportion="-5.44">
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout-land/main.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="24" selection-start="1010" selection-end="1010" vertical-scroll-proportion="-4.76">
-          <folding />
+        <state line="19" column="20" selection-start="691" selection-end="691" vertical-scroll-proportion="-3.38">
+          <folding>
+            <element signature="tag#LinearLayout#2;tag#LinearLayout#0" expanded="false" />
+            <element signature="tag#LinearLayout#3;tag#LinearLayout#0" expanded="false" />
+          </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/info_dialog.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="317" selection-end="317" vertical-scroll-proportion="-2.04">
+        <state line="23" column="0" selection-start="725" selection-end="725" vertical-scroll-proportion="-7.82">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout-land/info_dialog.xml">
-      <provider editor-type-id="text-editor">
-        <state line="13" column="79" selection-start="764" selection-end="764" vertical-scroll-proportion="-6.16">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="63" selection-start="748" selection-end="748" vertical-scroll-proportion="-7.48">
           <folding />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/info_dialog.xml">
-      <provider editor-type-id="text-editor">
-        <state line="6" column="42" selection-start="264" selection-end="264" vertical-scroll-proportion="-4.08">
+    <entry file="file://$PROJECT_DIR$/res/layout-land/main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="170" column="31" selection-start="6961" selection-end="6961" vertical-scroll-proportion="-3.06">
+          <folding>
+            <element signature="tag#LinearLayout#0;tag#LinearLayout#0" expanded="false" />
+            <element signature="tag#LinearLayout#1;tag#LinearLayout#0" expanded="false" />
+            <element signature="tag#LinearLayout#2;tag#LinearLayout#0" expanded="false" />
+            <element signature="tag#LinearLayout#0;tag#LinearLayout#2;tag#LinearLayout#0" expanded="false" />
+            <element signature="tag#LinearLayout#1;tag#LinearLayout#2;tag#LinearLayout#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="92" selection-start="330" selection-end="330" vertical-scroll-proportion="-2.72">
           <folding />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/it/blackcat/dovesono/MapActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="0" selection-start="1651" selection-end="1651" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/map.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="84" selection-start="371" selection-end="371" vertical-scroll-proportion="-4.08">
+        <state line="32" column="0" selection-start="574" selection-end="1147" vertical-scroll-proportion="-6.0">
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout-land/map.xml">
       <provider editor-type-id="android-designer">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="112" selection-start="628" selection-end="628" vertical-scroll-proportion="0.08522727">
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
