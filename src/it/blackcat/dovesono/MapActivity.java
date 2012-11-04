@@ -40,11 +40,6 @@ public class MapActivity extends com.google.android.maps.MapActivity implements 
                 finish();
         }
     }
-/*
-    public static void drawLocationS(Location location, String accurancy, int eventsCount){
-        if(enabled && myInstance!=null)  myInstance.drawLocation(location, accurancy, eventsCount);
-    }
-*/
 
     //---------------------------------------------------------------------------- MapActivity  methods:
 
@@ -107,14 +102,6 @@ public class MapActivity extends com.google.android.maps.MapActivity implements 
                 copyField(MainActivity.myInstance,R.id.txtEventsG, this, R.id.txtEvents);
                 copyField(MainActivity.myInstance,R.id.txtPrecisionG, this, R.id.txtPrecision);
             }
-/*
-            ((TextView)findViewById(R.id.txtEvents)).setText(
-                ((TextView)findViewById(R.id.txtEventsG)).getText()
-            );
-            ((TextView)findViewById(R.id.txtPrecision)).setText(
-                    ((TextView)findViewById(R.id.txtPrecisionG)).getText()
-            );
-  */
         }else{
             //todo devo vedere come tracciare gli overlay anche se non ci sono movimenti sulla mappa!
 //            mapController. scrollBy(0, 0);    // traccia di sicuro gli overlay senza spostare la mappa
