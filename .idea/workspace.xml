@@ -1,0 +1,1068 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidDesignerProfile">
+    <option name="fullProfile">
+      <profile>
+        <option name="device" value="3.4in FWQVGA" />
+        <option name="deviceConfiguration" value="Landscape" />
+        <option name="dockMode" value="" />
+        <option name="targetHashString" value="android-10" />
+        <option name="theme" value="Theme.Light.NoTitleBar" />
+      </profile>
+    </option>
+    <option name="selection" value="[Full]" />
+  </component>
+  <component name="AndroidLayoutPreviewToolWindow">
+    <option name="state">
+      <GlobalState>
+        <option name="device" value="3.7in WVGA (Nexus One)" />
+        <option name="dockMode" value="" />
+        <option name="nightMode" value="night" />
+        <option name="targetHashString" value="android-10" />
+        <option name="theme" value="Theme.Light" />
+        <option name="visible" value="false" />
+      </GlobalState>
+    </option>
+    <device-configurations>
+      <entry key="file://$PROJECT_DIR$/res/layout-land/info_dialog.xml" value="Portrait" />
+      <entry key="file://$PROJECT_DIR$/res/layout-land/main.xml" value="Portrait" />
+      <entry key="file://$PROJECT_DIR$/res/layout-land/map.xml" value="Portrait" />
+    </device-configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/android-support-v4.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/android_support_v4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gen/it/blackcat/Manifest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/info_dialog.xml" />
+    </list>
+    <ignored path="DoveSono.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="/Dummy.txt" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351986817849" ignored="false" />
+    <file path="/info_dialog.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351986260787" ignored="false" />
+    <file path="/strings.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351985890107" ignored="false" />
+    <file path="/MainActivity.java" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351983770053" ignored="false" />
+    <file path="/fragment.java" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351979082581" ignored="false" />
+    <file path="/main.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351975785359" ignored="false" />
+    <file path="/FireMissilesDialogFragment.java" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351901274232" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/android/lib/android.jar!/org/jetbrains/android/android.xsd" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351877067759" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy3046047939408621747tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351723088995" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy3626146887877689568tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351715610935" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy8839097107955374116tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351715557732" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy5938648963700864674tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351715451769" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy5104828595367257517tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351714862091" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy7920541623377237207tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351714548027" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy2893629087377708590tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351714523114" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy7865776612955174086tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351714481750" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy3961600543666197590tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351714031303" ignored="false" />
+    <file path="/styles.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351713864284" ignored="false" />
+    <file path="/MapActivity.java" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351684519361" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy4068786476889770463tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351537844863" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy5648008074417465432tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351537762499" ignored="false" />
+    <file path="/map.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351537748305" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy3840430680119930095tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351537497726" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy9086032324179297144tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351537088931" ignored="false" />
+    <file path="/textlines.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351536951543" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy3302527729106535516tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351536453218" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy1015425315265425281tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351535989766" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy6056234629298166115tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351535637104" ignored="false" />
+    <file path="/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351535633226" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy1760160381802952462tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351535388389" ignored="false" />
+    <file path="/a.dummy" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351532534397" ignored="false" />
+    <file path="/MapCenterOverlay.java" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351531809734" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy6132234873307845939tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351530662710" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy6274240278995382726tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351348338537" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy8744950588995506237tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351346196287" ignored="false" />
+    <file path="/README" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351346082672" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy2719258496234599983tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351345716718" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy3072282978768377117tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351345658099" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy2909176750415202434tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351345635562" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy6748841223293692955tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351345487350" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy2212863922049820326tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351345363609" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy148315412205156856tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351345181975" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy3171388081153895427tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351331641945" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy253687403476780531tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351108212074" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy2914649406838185900tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351449448526" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy355702030216010136tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351450470036" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy6416961723442682966tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351450526689" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy194519372384684601tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351451039085" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy5923630672027782620tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351514486264" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy6322613574506279144tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351517515372" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy2718064494888339355tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351518642536" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy1837909286801453631tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351549583023" ignored="false" />
+    <file path="/a.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351702589206" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy881344155002635713tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351702754943" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy8974042002926548837tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351703083208" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy3345074751200926448tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351707173935" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy1343028396038570147tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351707356555" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy8153681065422236568tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351709467045" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy8514231784643720806tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351764355362" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy4773546886204923222tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351764460123" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy634085853026757745tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351764846254" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy9015101672958629439tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351764892340" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy280849874564394777tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351764975111" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy5223205876846609057tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351765044832" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy6130944179568641773tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351765123182" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy7078052252587677568tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351765282662" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy3244599062301200892tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351765488058" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy6190730494905222029tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351765578052" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy5838531178199967848tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351765648463" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy620767210634885689tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351765668514" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_rules default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_rules />
+    <ui_properties />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="DoveSono" />
+    <favorites_list name="Current task" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/it/blackcat/dovesono/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="106" column="0" selection-start="3286" selection-end="3286" vertical-scroll-proportion="-4.76">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Manifest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gen/it/blackcat/Manifest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="19" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="0" selection-start="446" selection-end="639" vertical-scroll-proportion="-5.44">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout-land/main.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="24" selection-start="1010" selection-end="1010" vertical-scroll-proportion="-4.76">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="info_dialog.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/res/layout/info_dialog.xml">
+          <provider editor-type-id="text-editor">
+            <state line="6" column="42" selection-start="264" selection-end="264" vertical-scroll-proportion="-4.08">
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="map.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/map.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="84" selection-start="371" selection-end="371" vertical-scroll-proportion="-4.08">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="info_dialog.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout-land/info_dialog.xml">
+          <provider editor-type-id="text-editor">
+            <state line="13" column="79" selection-start="764" selection-end="764" vertical-scroll-proportion="-6.16">
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="0" selection-start="317" selection-end="317" vertical-scroll-proportion="-2.04">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="SYNC_SETTING" value="DONT" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/res/layout/mainh.xml" />
+        <option value="$PROJECT_DIR$/README" />
+        <option value="$PROJECT_DIR$/src/it/blackcat/dovesono/MapActivity.java" />
+        <option value="$PROJECT_DIR$/src/it/blackcat/dovesono/MapCenterOverlay.java" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/res/values/styles.xml" />
+        <option value="$PROJECT_DIR$/res/layout-land/map.xml" />
+        <option value="$PROJECT_DIR$/res/layout/map.xml" />
+        <option value="$PROJECT_DIR$/src/it/blackcat/dovesono/FireMissilesDialogFragment.java" />
+        <option value="$PROJECT_DIR$/res/drawable/textlines.xml" />
+        <option value="$PROJECT_DIR$/res/layout/main.xml" />
+        <option value="$PROJECT_DIR$/src/it/blackcat/dovesono/MainActivity.java" />
+        <option value="$PROJECT_DIR$/res/layout-land/main.xml" />
+        <option value="$PROJECT_DIR$/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/res/layout-land/info_dialog.xml" />
+        <option value="$PROJECT_DIR$/res/layout/info_dialog.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1456" />
+    <option name="height" value="876" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Spelling</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>SpellCheckingInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DoveSono" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DoveSono" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DoveSono" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DoveSono" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DoveSono" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dovesono" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DoveSono" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DoveSono" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DoveSono" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DoveSono" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout-land" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DoveSono" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DoveSono" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DoveSono" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DoveSono" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drawable" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DoveSono" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DoveSono" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DoveSono" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DoveSono" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blackcat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DoveSono" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DoveSono" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".idea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DoveSono" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DoveSono" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/gen/it/blackcat/dovesono" />
+    <property name="OverrideImplement.combined" value="false" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.lastSelected" value="preferences.sourceCode.XML" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Pollicino" />
+    <property name="AndroidLayoutSelectedEditor" value="text-editor" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="YT9001KR0G" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="X8" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="it.blackcat.dovesono" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\sviluppo\android\DoveSono\res\layout-land" />
+      <recent name="D:\sviluppo\android\DoveSono\res\layout" />
+      <recent name="D:\sviluppo\android\DoveSono\res\drawable" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\sviluppo\android\DoveSono\res\drawable" />
+      <recent name="D:\sviluppo\android\DoveSono\res\layout-land" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="it.blackcat.dovesono" />
+      <recent name="it.blackcat" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Android Application.DoveSono">
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="DoveSono" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="DoveSono" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="COMMAND_LINE" value="-dns-server 8.8.8.8" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Android Application.DoveSono" />
+    </list>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="DETECT_NESTED_COPIES" value="true" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <configuration useDefault="true">D:\Users\homeuser\AppData\Roaming\Subversion</configuration>
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" name="Default" comment="" />
+      <created>1334081045713</created>
+      <updated>1334081045713</updated>
+    </task>
+    <task id="LOCAL-00001" summary="sistemata chiave maps">
+      <created>1349646051719</created>
+      <updated>1349646051719</updated>
+    </task>
+    <task id="LOCAL-00002" summary="versione 1.1">
+      <created>1351703307766</created>
+      <updated>1351703307766</updated>
+    </task>
+    <task id="LOCAL-00003" summary="versione 1.5">
+      <created>1351986742003</created>
+      <updated>1351986742003</updated>
+    </task>
+    <task id="LOCAL-00004" summary="versione 1.5">
+      <created>1351986820095</created>
+      <updated>1351986820095</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15136299" sideWeight="0.84005564" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30846485" sideWeight="0.84005564" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2861251" sideWeight="0.67178774" order="6" side_tool="false" content_ui="tabs" x="595" y="14" width="643" height="876" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15994437" sideWeight="0.99856526" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32545203" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42976356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32823366" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18678162" sideWeight="0.84005564" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32684284" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3574409" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" value="versione 1.5" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="sistemata chiave maps" />
+    <MESSAGE value="versione 1.1" />
+    <MESSAGE value="versione 1.5" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/gen/it/blackcat/BuildConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="11" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen/it/blackcat/R.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="19" selection-start="130" selection-end="130" vertical-scroll-proportion="0.09864604">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen/it/blackcat/Manifest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="19" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Android/android-sdk/platforms/android-10/android.jar!/android/os/Looper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="0" selection-start="1017" selection-end="1017" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Android/android-sdk/platforms/android-10/android.jar!/java/lang/reflect/Method.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="0" selection-start="2049" selection-end="2049" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Android/android-sdk/platforms/android-10/android.jar!/java/lang/Class.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="122" column="0" selection-start="5686" selection-end="5686" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Android/android-sdk/platforms/android-10/android.jar!/android/app/Activity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="183" column="22" selection-start="8020" selection-end="8020" vertical-scroll-proportion="0.33254156">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Android/android-sdk/platforms/android-10/android.jar!/android/os/Handler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="16" selection-start="564" selection-end="564" vertical-scroll-proportion="0.33179724">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Android/android-sdk/platforms/android-10/android.jar!/android/view/View.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/it/blackcat/dovesono/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="106" column="0" selection-start="3286" selection-end="3286" vertical-scroll-proportion="-4.76">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="446" selection-end="639" vertical-scroll-proportion="-5.44">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout-land/main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="24" selection-start="1010" selection-end="1010" vertical-scroll-proportion="-4.76">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="317" selection-end="317" vertical-scroll-proportion="-2.04">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout-land/info_dialog.xml">
+      <provider editor-type-id="text-editor">
+        <state line="13" column="79" selection-start="764" selection-end="764" vertical-scroll-proportion="-6.16">
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/info_dialog.xml">
+      <provider editor-type-id="text-editor">
+        <state line="6" column="42" selection-start="264" selection-end="264" vertical-scroll-proportion="-4.08">
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/map.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="84" selection-start="371" selection-end="371" vertical-scroll-proportion="-4.08">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Android (DoveSono)|Android</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>Android 2.3.3 Platform</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Android|DoveSono</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>android-support-v4</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+
