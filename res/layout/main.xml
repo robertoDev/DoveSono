@@ -20,7 +20,6 @@
                 a:layout_width="wrap_content"
                 a:layout_height="48dp"
                 a:text="@string/app_name"
-                a:id="@+id/textView"
                 a:singleLine="true"
                 a:textSize="24dp"
                 a:typeface="sans"
@@ -36,33 +35,41 @@
             a:layout_height="1dp" a:background="#565656"/>
 
     <LinearLayout
-            a:layout_width="wrap_content"
+            a:layout_width="fill_parent"
             a:layout_height="wrap_content"
             a:orientation="horizontal"
             a:layout_weight="1"
-            a:padding="3dp">
+            a:padding="3dp" a:gravity="center">
         <LinearLayout
                 a:layout_width="wrap_content"
                 a:layout_height="wrap_content"
                 a:orientation="vertical"
-                a:paddingRight="5px">
-            <ImageView
-                    a:src="@drawable/gps_icon"
-                    a:layout_width="84dp"
-                    a:layout_height="84dp"/>
+                a:paddingRight="3dp"
+                >
             <TextView
                     a:textColor="#000"
                     a:layout_width="wrap_content"
                     a:layout_height="wrap_content"
                     a:layout_gravity="center_horizontal"
+                    a:textStyle="bold"
                     a:text="@string/text_gps"
-                    a:textSize="14dp"/>
+                    />
+            <ImageView
+                a:background="@drawable/background1"
+                a:src="@drawable/gps_icon"
+                a:layout_width="84dp"
+                a:layout_height="84dp"
+                a:id="@+id/imgGps"
+                a:contentDescription="@string/text_gps"
+            />
             <Button
-                    a:id="@+id/buttonShowG"
-                    a:layout_width="fill_parent"
-                    a:layout_height="35dp"
-                    a:text="@string/text_show" />
+                a:id="@+id/buttonShowG"
+                a:layout_width="fill_parent"
+                a:layout_height="45dp"
+                a:text="@string/text_show"
+                a:layout_marginTop="3dp"/>
         </LinearLayout>
+
         <TableLayout
                 a:layout_width="fill_parent"
                 a:layout_height="wrap_content">
@@ -101,31 +108,41 @@
         </TableLayout>
     </LinearLayout>
     <LinearLayout
-            a:layout_width="wrap_content"
+            a:layout_width="fill_parent"
             a:layout_height="wrap_content"
             a:orientation="horizontal"
-            a:layout_weight="1" a:padding="3dp">
+            a:layout_weight="1" a:padding="3dp"
+            a:gravity="center">
         <LinearLayout
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:orientation="vertical"
+            a:paddingRight="3dp"
+            >
+            <TextView
+                a:textColor="#000"
                 a:layout_width="wrap_content"
                 a:layout_height="wrap_content"
-                a:orientation="vertical"
-                a:paddingRight="5px">
+                a:layout_gravity="center_horizontal"
+                a:text="@string/text_network"
+                a:textStyle="bold"
+            />
             <ImageView
-                    a:src="@drawable/network_icon"
-                    a:layout_width="84dp"
-                    a:layout_height="84dp"/>
-            <TextView
-                    a:textColor="#000"
-                    a:layout_width="wrap_content"
-                    a:layout_height="wrap_content"
-                    a:layout_gravity="center_horizontal"
-                    a:text="@string/text_network"/>
+                a:background="@drawable/background1"
+                a:src="@drawable/network_icon"
+                a:layout_width="84dp"
+                a:layout_height="84dp"
+                a:id="@+id/imgNetwork"
+                a:contentDescription="@string/text_network"
+            />
             <Button
-                    a:id="@+id/buttonShowN"
-                    a:layout_width="fill_parent"
-                    a:layout_height="35dp"
-                    a:text="@string/text_show" />
+                a:id="@+id/buttonShowN"
+                a:layout_width="fill_parent"
+                a:layout_height="45dp"
+                a:text="@string/text_show"
+                a:layout_marginTop="3dp"/>
         </LinearLayout>
+
         <TableLayout
                 a:layout_width="fill_parent"
                 a:layout_height="wrap_content">
@@ -139,7 +156,7 @@
             </TableRow>
             <TableRow>
                 <TextView style="@style/cellHead" a:text="@string/text_time" />
-                <TextView style="@style/cellVal" a:id="@+id/txtTimeN"/>
+                <TextView style="@style/cellVal" a:id="@+id/txtTimeN" />
             </TableRow>
             <TableRow>
                 <TextView  style="@style/cellHead" a:text="@string/text_accuracy"/>

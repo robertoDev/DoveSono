@@ -39,132 +39,150 @@
         a:layout_height="fill_parent"
         a:orientation="horizontal"
         a:gravity="center_vertical">
-    <LinearLayout
-        a:layout_width="wrap_content"
-        a:layout_height="wrap_content"
-        a:orientation="horizontal"
-        a:layout_weight="1"
-        a:padding="3dp">
         <LinearLayout
-            a:layout_width="wrap_content"
-            a:layout_height="wrap_content"
-            a:orientation="vertical"
-            a:paddingRight="5px">
-            <ImageView
-                a:src="@drawable/gps_icon"
-                a:layout_width="84dp"
-                a:layout_height="84dp"/>
-            <TextView
-                a:textColor="#000"
-                a:layout_width="wrap_content"
-                a:layout_height="wrap_content"
-                a:layout_gravity="center_horizontal"
-                a:text="@string/text_gps"
-                a:textSize="14dp"/>
-            <Button
-                a:id="@+id/buttonShowG"
                 a:layout_width="fill_parent"
-                a:layout_height="35dp"
-                a:text="@string/text_show" />
+                a:layout_height="wrap_content"
+                a:orientation="horizontal"
+                a:layout_weight="1"
+                a:padding="3dp" a:gravity="center">
+            <LinearLayout
+                    a:layout_width="wrap_content"
+                    a:layout_height="wrap_content"
+                    a:orientation="vertical"
+                    a:paddingRight="3dp"
+                    >
+                <TextView
+                        a:textColor="#000"
+                        a:layout_width="wrap_content"
+                        a:layout_height="wrap_content"
+                        a:layout_gravity="center_horizontal"
+                        a:textStyle="bold"
+                        a:text="@string/text_gps"
+                        />
+                <ImageView
+                        a:background="@drawable/background1"
+                        a:src="@drawable/gps_icon"
+                        a:layout_width="84dp"
+                        a:layout_height="84dp"
+                        a:id="@+id/imgGps"
+                        a:contentDescription="@string/text_gps"
+                        />
+                <Button
+                        a:id="@+id/buttonShowG"
+                        a:layout_width="fill_parent"
+                        a:layout_height="45dp"
+                        a:text="@string/text_show"
+                        a:layout_marginTop="3dp"/>
+            </LinearLayout>
+
+            <TableLayout
+                    a:layout_width="fill_parent"
+                    a:layout_height="wrap_content">
+                <TableRow>
+                    <TextView style="@style/cellHead" a:text="@string/text_status"/>
+                    <TextView style="@style/cellVal" a:id="@+id/txtStatusG" />
+                </TableRow>
+                <TableRow>
+                    <TextView style="@style/cellHead" a:text="@string/text_events"/>
+                    <TextView style="@style/cellVal" a:id="@+id/txtEventsG" />
+                </TableRow>
+                <TableRow>
+                    <TextView style="@style/cellHead" a:text="@string/text_time" />
+                    <TextView style="@style/cellVal" a:id="@+id/txtTimeG"/>
+                </TableRow>
+                <TableRow>
+                    <TextView  style="@style/cellHead" a:text="@string/text_accuracy"/>
+                    <TextView  style="@style/cellVal" a:id="@+id/txtPrecisionG"/>
+                </TableRow>
+                <TableRow>
+                    <TextView style="@style/cellHead" a:text="@string/text_latitude" />
+                    <TextView style="@style/cellVal"  a:id="@+id/txtXG" />
+                </TableRow>
+                <TableRow>
+                    <TextView style="@style/cellHead" a:text="@string/text_longitude" />
+                    <TextView style="@style/cellVal" a:id="@+id/txtYG" />
+                </TableRow>
+                <TableRow>
+                    <TextView style="@style/cellHead" a:text="@string/text_altitude" />
+                    <TextView style="@style/cellVal" a:id="@+id/txtAltitudeG"/>
+                </TableRow>
+                <TableRow>
+                    <TextView style="@style/cellHead" a:text="@string/text_location" />
+                    <TextView style="@style/cellVal" a:id="@+id/txtLocationG"/>
+                </TableRow>
+            </TableLayout>
         </LinearLayout>
-        <TableLayout
-            a:layout_width="fill_parent"
-            a:layout_height="wrap_content">
-            <TableRow>
-                <TextView style="@style/cellHead" a:text="@string/text_status"/>
-                <TextView style="@style/cellVal" a:id="@+id/txtStatusG" />
-            </TableRow>
-            <TableRow>
-                <TextView style="@style/cellHead" a:text="@string/text_events"/>
-                <TextView style="@style/cellVal" a:id="@+id/txtEventsG" />
-            </TableRow>
-            <TableRow>
-                <TextView style="@style/cellHead" a:text="@string/text_time" />
-                <TextView style="@style/cellVal" a:id="@+id/txtTimeG"/>
-            </TableRow>
-            <TableRow>
-                <TextView  style="@style/cellHead" a:text="@string/text_accuracy"/>
-                <TextView  style="@style/cellVal" a:id="@+id/txtPrecisionG"/>
-            </TableRow>
-            <TableRow>
-                <TextView style="@style/cellHead" a:text="@string/text_latitude" />
-                <TextView style="@style/cellVal"  a:id="@+id/txtXG" />
-            </TableRow>
-            <TableRow>
-                <TextView style="@style/cellHead" a:text="@string/text_longitude" />
-                <TextView style="@style/cellVal" a:id="@+id/txtYG" />
-            </TableRow>
-            <TableRow>
-                <TextView style="@style/cellHead" a:text="@string/text_altitude" />
-                <TextView style="@style/cellVal" a:id="@+id/txtAltitudeG"/>
-            </TableRow>
-            <TableRow>
-                <TextView style="@style/cellHead" a:text="@string/text_location" />
-                <TextView style="@style/cellVal" a:id="@+id/txtLocationG"/>
-            </TableRow>
-        </TableLayout>
-    </LinearLayout>
-    <LinearLayout
-        a:layout_width="wrap_content"
-        a:layout_height="wrap_content"
-        a:orientation="horizontal"
-        a:layout_weight="1" a:padding="3dp">
         <LinearLayout
-            a:layout_width="wrap_content"
-            a:layout_height="wrap_content"
-            a:orientation="vertical"
-            a:paddingRight="5px">
-            <ImageView
-                a:src="@drawable/network_icon"
-                a:layout_width="84dp"
-                a:layout_height="84dp"/>
-            <TextView
-                a:textColor="#000"
-                a:layout_width="wrap_content"
-                a:layout_height="wrap_content"
-                a:layout_gravity="center_horizontal"
-                a:text="@string/text_network"/>
-            <Button
-                a:id="@+id/buttonShowN"
                 a:layout_width="fill_parent"
-                a:layout_height="35dp"
-                a:text="@string/text_show" />
-        </LinearLayout>
-        <TableLayout
-            a:layout_width="fill_parent"
-            a:layout_height="wrap_content">
-            <TableRow>
-                <TextView style="@style/cellHead" a:text="@string/text_status"/>
-                <TextView style="@style/cellVal" a:id="@+id/txtStatusN" />
-            </TableRow>
-            <TableRow>
-                <TextView style="@style/cellHead" a:text="@string/text_events"/>
-                <TextView style="@style/cellVal" a:id="@+id/txtEventsN" />
-            </TableRow>
-            <TableRow>
-                <TextView style="@style/cellHead" a:text="@string/text_time" />
-                <TextView style="@style/cellVal" a:id="@+id/txtTimeN"/>
-            </TableRow>
-            <TableRow>
-                <TextView  style="@style/cellHead" a:text="@string/text_accuracy"/>
-                <TextView  style="@style/cellVal" a:id="@+id/txtPrecisionN"/>
-            </TableRow>
-            <TableRow>
-                <TextView style="@style/cellHead" a:text="@string/text_latitude" />
-                <TextView style="@style/cellVal"  a:id="@+id/txtXN" />
-            </TableRow>
-            <TableRow>
-                <TextView style="@style/cellHead" a:text="@string/text_longitude" />
-                <TextView style="@style/cellVal" a:id="@+id/txtYN" />
-            </TableRow>
-            <TableRow>
-                <TextView style="@style/cellHead" a:text="@string/text_altitude" />
-                <TextView style="@style/cellVal" a:id="@+id/txtAltitudeN"/>
-            </TableRow>
-            <TableRow>
-                <TextView style="@style/cellHead" a:text="@string/text_location" />
-                <TextView style="@style/cellVal" a:id="@+id/txtLocationN"/>
-            </TableRow>
+                a:layout_height="wrap_content"
+                a:orientation="horizontal"
+                a:layout_weight="1" a:padding="3dp"
+                a:gravity="center">
+            <LinearLayout
+                    a:layout_width="wrap_content"
+                    a:layout_height="wrap_content"
+                    a:orientation="vertical"
+                    a:paddingRight="3dp"
+                    >
+                <TextView
+                        a:textColor="#000"
+                        a:layout_width="wrap_content"
+                        a:layout_height="wrap_content"
+                        a:layout_gravity="center_horizontal"
+                        a:text="@string/text_network"
+                        a:textStyle="bold"
+                        />
+                <ImageView
+                        a:background="@drawable/background1"
+                        a:src="@drawable/network_icon"
+                        a:layout_width="84dp"
+                        a:layout_height="84dp"
+                        a:id="@+id/imgNetwork"
+                        a:contentDescription="@string/text_network"
+                        />
+                <Button
+                        a:id="@+id/buttonShowN"
+                        a:layout_width="fill_parent"
+                        a:layout_height="45dp"
+                        a:text="@string/text_show"
+                        a:layout_marginTop="3dp"/>
+            </LinearLayout>
+
+            <TableLayout
+                    a:layout_width="fill_parent"
+                    a:layout_height="wrap_content">
+                <TableRow>
+                    <TextView style="@style/cellHead" a:text="@string/text_status"/>
+                    <TextView style="@style/cellVal" a:id="@+id/txtStatusN" />
+                </TableRow>
+                <TableRow>
+                    <TextView style="@style/cellHead" a:text="@string/text_events"/>
+                    <TextView style="@style/cellVal" a:id="@+id/txtEventsN" />
+                </TableRow>
+                <TableRow>
+                    <TextView style="@style/cellHead" a:text="@string/text_time" />
+                    <TextView style="@style/cellVal" a:id="@+id/txtTimeN" />
+                </TableRow>
+                <TableRow>
+                    <TextView  style="@style/cellHead" a:text="@string/text_accuracy"/>
+                    <TextView  style="@style/cellVal" a:id="@+id/txtPrecisionN"/>
+                </TableRow>
+                <TableRow>
+                    <TextView style="@style/cellHead" a:text="@string/text_latitude" />
+                    <TextView style="@style/cellVal"  a:id="@+id/txtXN" />
+                </TableRow>
+                <TableRow>
+                    <TextView style="@style/cellHead" a:text="@string/text_longitude" />
+                    <TextView style="@style/cellVal" a:id="@+id/txtYN" />
+                </TableRow>
+                <TableRow>
+                    <TextView style="@style/cellHead" a:text="@string/text_altitude" />
+                    <TextView style="@style/cellVal" a:id="@+id/txtAltitudeN"/>
+                </TableRow>
+                <TableRow>
+                    <TextView style="@style/cellHead" a:text="@string/text_location" />
+                    <TextView style="@style/cellVal" a:id="@+id/txtLocationN"/>
+                </TableRow>
             </TableLayout>
         </LinearLayout>
     </LinearLayout>

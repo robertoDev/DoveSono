@@ -8,8 +8,11 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.widget.ImageView;
 import android.widget.TextView;
 import it.blackcat.R;
+import it.blackcat.geo.GeoListener;
+import it.blackcat.geo.GeoManager;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -50,7 +53,8 @@ public class MainActivity extends Activity implements LocationListener, OnClickL
     //----------------------------------------------------------------------------- LocationListener methods:
 
     public void onLocationChanged(Location currentLocation) {
-         traceLocation(currentLocation,true);
+        boolean isBetter=geoManager.isBetterLocation(currentLocation);
+        traceLocation(currentLocation,true,isBetter);
     }
 
     public void onStatusChanged(String s, int i, Bundle bundle) {
@@ -123,9 +127,6 @@ public class MainActivity extends Activity implements LocationListener, OnClickL
             eventsG = 0;
             eventsN = 0;
         }
-        LocationManager locationManager = (LocationManager) getSystemService(LOCATION_SERVICE);
-        traceLocation(locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER), false);
-        traceLocation(locationManager.getLastKnownLocation(LocationManager.NETWORK_PROVIDER),false);
 
         startEvents();
         traceStatus();
@@ -185,16 +186,17 @@ public class MainActivity extends Activity implements LocationListener, OnClickL
     /**
      * Avvia la rilevazione degli eventi
      */
+
+    GeoManager geoManager;
     void startEvents(){
 
-        LocationManager locationManager = (LocationManager) getSystemService(LOCATION_SERVICE);
-        if(locationManager.getProvider(LocationManager.GPS_PROVIDER)!=null){
-            locationManager.requestLocationUpdates ( LocationManager.GPS_PROVIDER, 10000, 10,  this);
-        }
+        geoManager=new GeoManager((LocationManager)getSystemService(LOCATION_SERVICE), this);
 
-        if(locationManager.getProvider(LocationManager.NETWORK_PROVIDER)!=null){
-            locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 30000, 50, this);
-        }
+
+        //traceLocation(geoManager.getLastKnownLocation(),false, true);
+
+        geoManager.start();
+
     }
 
     /**
@@ -229,7 +231,7 @@ public class MainActivity extends Activity implements LocationListener, OnClickL
      * @param location nuova location da tracciare
      * @param flagInc  se l'evento è da conteggiare
      */
-    void traceLocation(Location location, boolean flagInc){
+    void traceLocation(Location location, boolean flagInc, boolean isBest){
 //  -----------------------------------------------------
 
         if (location!=null){
@@ -245,10 +247,16 @@ public class MainActivity extends Activity implements LocationListener, OnClickL
             if(new Date().getTime()- location.getTime()> OLD_EVENT_TIME ){
                 sdt+=" (OLD!)";
             }
+
+
             // distinguo gps/network
             if(location.getProvider().equals(LocationManager.GPS_PROVIDER)){
                 lastGpsLocation=location;
                 if (flagInc) eventsG++;              // conteggio gli eventi processati per GPS
+                if(isBest){
+                    findViewById(R.id.imgGps).setBackgroundResource(R.drawable.background2);
+                    findViewById(R.id.imgNetwork).setBackgroundResource(R.drawable.background1);
+                }
 
                 // visualizzo le info sulla location:
                 displayField(R.id.txtXG,String.valueOf(location.getLatitude()));
@@ -262,6 +270,10 @@ public class MainActivity extends Activity implements LocationListener, OnClickL
             }else if(location.getProvider().equals(LocationManager.NETWORK_PROVIDER)){
                 lastNetworkLocation=location;
                 if (flagInc) eventsN++;             // conteggio gli eventi processati per NETWORK
+                if(isBest){
+                    findViewById(R.id.imgGps).setBackgroundResource(R.drawable.background1);
+                    findViewById(R.id.imgNetwork).setBackgroundResource(R.drawable.background2);
+                }
                 // visualizzo le info sulla location
                 displayField(R.id.txtXN,String.valueOf(location.getLatitude()));
                 displayField(R.id.txtYN,String.valueOf(location.getLongitude()));

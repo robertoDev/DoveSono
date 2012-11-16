@@ -32,14 +32,14 @@ public class MapCenterOverlay extends Overlay {
         paintGps = new Paint();
         paintGps.setStyle(Paint.Style.FILL);
         paintGps.setAntiAlias(true);
-        paintGps.setColor(Color.GREEN);
-        paintGps.setAlpha(50);
+        paintGps.setColor(Color.BLUE);
+        paintGps.setAlpha(40);
 
         paintNetwork = new Paint();
         paintNetwork.setStyle(Paint.Style.FILL);
         paintNetwork.setAntiAlias(true);
         paintNetwork.setColor(Color.BLUE);
-        paintNetwork.setAlpha(50);
+        paintNetwork.setAlpha(40);
 
         pointerBitmapNetwork = BitmapFactory.decodeResource( resources, R.drawable.map_pointer_n);
         pointerBitmapGps = BitmapFactory.decodeResource( resources, R.drawable.map_pointer_g);

@@ -31,18 +31,54 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/it/blackcat/BuildConfig.java" afterPath="$PROJECT_DIR$/gen/it/blackcat/BuildConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/it/blackcat/dovesono/MainActivity.java" afterPath="$PROJECT_DIR$/src/it/blackcat/dovesono/MainActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/it/blackcat/Manifest.java" afterPath="$PROJECT_DIR$/gen/it/blackcat/Manifest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/it/blackcat/dovesono/MapCenterOverlay.java" afterPath="$PROJECT_DIR$/src/it/blackcat/dovesono/MapCenterOverlay.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/it/blackcat/R.java" afterPath="$PROJECT_DIR$/gen/it/blackcat/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/main.xml" afterPath="$PROJECT_DIR$/res/layout/main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout-land/main.xml" afterPath="$PROJECT_DIR$/res/layout-land/main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/textlines.xml" afterPath="$PROJECT_DIR$/res/drawable/textlines.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DoveSono.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1352023831042" ignored="false" />
-    <file path="/MainActivity.java" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351983770053" ignored="false" />
-    <file path="/fragment.java" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351979082581" ignored="false" />
+    <file path="/Dummy.txt" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1353054474374" ignored="false" />
+    <file path="$PROJECT_DIR$/../DoveSono2/src/it/blackcat/geo/GeoManager.java" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1352560845569" ignored="false" />
+    <file path="$PROJECT_DIR$/../DoveSono2/src/it/blackcat/dovesono/MainActivity.java" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1352560845569" ignored="false" />
+    <file path="/MainActivity.java" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1352560777181" ignored="false" />
+    <file path="/GeoManager.java" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1352560699102" ignored="false" />
+    <file path="$PROJECT_DIR$/../DoveSono2/src/it/blackcat/geo/GeoLocation.java" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1352559440689" ignored="false" />
+    <file path="/GeoLocation.java" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1352559439660" ignored="false" />
+    <file path="/fragment.java" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1352557435157" ignored="false" />
+    <file path="$PROJECT_DIR$/../DoveSono2/gen/it/blackcat/BuildConfig.java" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1352556044472" ignored="false" />
+    <file path="$PROJECT_DIR$/../DoveSono2/gen/it/blackcat/R.java" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1352556044472" ignored="false" />
+    <file path="$PROJECT_DIR$/../DoveSono2/gen/it/blackcat/Manifest.java" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1352556044472" ignored="false" />
+    <file path="$PROJECT_DIR$/../Pollicino/src/it/blackcat/geo/GeoManager.java" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1352555924963" ignored="false" />
+    <file path="$PROJECT_DIR$/../Pollicino/src/it/blackcat/pollicino/FirstActivity.java" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1352555914443" ignored="false" />
+    <file path="/FirstActivity.java" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1352555911495" ignored="false" />
+    <file path="/GeoListener.java" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1352555870471" ignored="false" />
+    <file path="$PROJECT_DIR$/../Pollicino/src/it/blackcat/geo/GeoListener.java" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1352555870471" ignored="false" />
+    <file path="/LocationMngr.java" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1352555847932" ignored="false" />
+    <file path="$PROJECT_DIR$/../Pollicino/src/it/blackcat/pollicino/GeoManager.java" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1352548680024" ignored="false" />
+    <file path="$PROJECT_DIR$/../Pollicino/src/it/blackcat/pollicino/LocationController.java" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1352548677447" ignored="false" />
+    <file path="$PROJECT_DIR$/../Pollicino/src/it/blackcat/pollicino/LocationMngr.java" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1352547741516" ignored="false" />
+    <file path="$PROJECT_DIR$/../Pollicino/gen/it/blackcat/pollicino/R.java" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1352546448520" ignored="false" />
+    <file path="$PROJECT_DIR$/../Pollicino/gen/it/blackcat/pollicino/Manifest.java" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1352546448520" ignored="false" />
+    <file path="$PROJECT_DIR$/../Pollicino/gen/it/blackcat/pollicino/BuildConfig.java" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1352546448520" ignored="false" />
+    <file path="$PROJECT_DIR$/../Pollicino/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1352546432044" ignored="false" />
+    <file path="$PROJECT_DIR$/../Pollicino/res/layout/main.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1352546432044" ignored="false" />
+    <file path="$PROJECT_DIR$/../Pollicino/build.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1352546432044" ignored="false" />
+    <file path="$PROJECT_DIR$/../Pollicino/res/values/strings.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1352546431733" ignored="false" />
+    <file path="$PROJECT_DIR$/../Pollicino/gen/com/example/Pollicino/Manifest.java" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1352546169748" ignored="false" />
+    <file path="$PROJECT_DIR$/../Pollicino/gen/it/blackcat/BuildConfig.java" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1352546167958" ignored="false" />
+    <file path="$PROJECT_DIR$/../Pollicino/gen/it/blackcat/R.java" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1352546161305" ignored="false" />
+    <file path="$PROJECT_DIR$/../Pollicino/gen/it/blackcat/Manifest.java" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1352546161305" ignored="false" />
+    <file path="$PROJECT_DIR$/../Pollicino/src/it/blackcat/pollicino/LocationEvaluator.java" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1352545661255" ignored="false" />
+    <file path="/LocationEvaluator.java" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1352545613982" ignored="false" />
+    <file path="$PROJECT_DIR$/../Pollicino/src/com/example/Pollicino/MyActivity.java" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1352542756826" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/android/lib/android.jar!/org/jetbrains/android/android.xsd" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1352542747851" ignored="false" />
     <file path="/FireMissilesDialogFragment.java" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351901274232" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/android/lib/android.jar!/org/jetbrains/android/android.xsd" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351877067759" ignored="false" />
     <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy3046047939408621747tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351723088995" ignored="false" />
     <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy3626146887877689568tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351715610935" ignored="false" />
     <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy8839097107955374116tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351715557732" ignored="false" />
@@ -86,7 +122,6 @@
     <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy6322613574506279144tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351517515372" ignored="false" />
     <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy2718064494888339355tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351518642536" ignored="false" />
     <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy1837909286801453631tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351549583023" ignored="false" />
-    <file path="/a.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351702589206" ignored="false" />
     <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy881344155002635713tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351702754943" ignored="false" />
     <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy8974042002926548837tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351703083208" ignored="false" />
     <file path="$USER_HOME$/AppData/Local/Temp/android_manifest_copy3345074751200926448tmp/AndroidManifest.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1351707173935" ignored="false" />
@@ -109,6 +144,7 @@
     <file path="/strings.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1352020360878" ignored="false" />
     <file path="/map.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1352020594807" ignored="false" />
     <file path="/info_ita.txt" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1352021749710" ignored="false" />
+    <file path="/a.xml" changelist="84d7d0cd-ac34-4766-aa31-f001ef15e1d1" time="1352047065067" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,9 +159,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <breakpoint_rules default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -160,6 +193,9 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_rules default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -169,7 +205,62 @@
     <favorites_list name="Current task" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MapActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/it/blackcat/dovesono/MapActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="29" selection-start="596" selection-end="596" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/it/blackcat/dovesono/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="43" column="46" selection-start="1296" selection-end="1296" vertical-scroll-proportion="0.14705883">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="R.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gen/it/blackcat/R.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="1" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Manifest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gen/it/blackcat/Manifest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="19" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BuildConfig.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gen/it/blackcat/BuildConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="19" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -203,7 +294,6 @@
         <option value="$PROJECT_DIR$/res/values/styles.xml" />
         <option value="$PROJECT_DIR$/src/it/blackcat/dovesono/FireMissilesDialogFragment.java" />
         <option value="$PROJECT_DIR$/res/drawable/textlines.xml" />
-        <option value="$PROJECT_DIR$/src/it/blackcat/dovesono/MainActivity.java" />
         <option value="$PROJECT_DIR$/res/layout-land/main.xml" />
         <option value="$PROJECT_DIR$/res/layout/main.xml" />
         <option value="$PROJECT_DIR$/res/layout/info_dialog.xml" />
@@ -214,6 +304,7 @@
         <option value="$PROJECT_DIR$/README" />
         <option value="$PROJECT_DIR$/src/it/blackcat/dovesono/MapActivity.java" />
         <option value="$PROJECT_DIR$/info_ita.txt" />
+        <option value="$PROJECT_DIR$/src/it/blackcat/dovesono/MainActivity.java" />
       </list>
     </option>
   </component>
@@ -310,7 +401,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -324,11 +415,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scopes" />
+              <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -342,29 +429,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
+              <option name="myItemId" value="gen" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="inspectionProfiles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DoveSono" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DoveSono" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="copyright" />
+              <option name="myItemId" value="blackcat" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -389,7 +458,7 @@
     <property name="OverrideImplement.combined" value="false" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="preferences.sourceCode.XML" />
+    <property name="options.lastSelected" value="settings.github" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Pollicino" />
@@ -614,26 +683,26 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15994437" sideWeight="0.5487805" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15994437" sideWeight="0.446198" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15994437" sideWeight="0.54017216" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15994437" sideWeight="0.4548063" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32545203" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32454923" sideWeight="0.49713057" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42976356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32823366" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18579628" sideWeight="0.84005564" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18579628" sideWeight="0.84005564" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32684284" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15136299" sideWeight="0.57023644" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3053161" sideWeight="0.57023644" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2861251" sideWeight="0.67178774" order="6" side_tool="false" content_ui="tabs" x="595" y="14" width="643" height="876" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -704,9 +773,112 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/gen/it/blackcat/R.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="1" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen/it/blackcat/Manifest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="19" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen/it/blackcat/BuildConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="19" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/it/blackcat/dovesono/MapActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="29" selection-start="596" selection-end="596" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/it/blackcat/dovesono/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="202" column="17" selection-start="6336" selection-end="6336" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen/it/blackcat/R.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="74" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen/it/blackcat/Manifest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="19" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen/it/blackcat/BuildConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="19" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.075">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.075" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/it/blackcat/dovesono/MapActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="29" selection-start="596" selection-end="596" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen/it/blackcat/Manifest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="19" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen/it/blackcat/BuildConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="19" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen/it/blackcat/R.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="1" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/it/blackcat/dovesono/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="46" selection-start="1296" selection-end="1296" vertical-scroll-proportion="0.14705883">
           <folding />
         </state>
       </provider>
