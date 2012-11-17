@@ -1,4 +1,11 @@
--- DoveSono? --
-
+-- DoveSono --
 DoveSono is a geolocalization app for monitoring GPS and Network location providers.
-It shows location attributes and displays them by Google Maps
+It shows location attributes and displays them in Google Maps.
+Implements a simple algorithm to choose the best provider (displayed with green background)
+
+
+Roberto Girelli
+roberto.girelli@gmail.com
+© 2012 Blackcat Software
+
+
