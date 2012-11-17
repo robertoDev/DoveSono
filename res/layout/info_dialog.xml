@@ -24,7 +24,7 @@
         a:layout_marginTop="5dp"
         a:layout_marginBottom="5dp"
         a:layout_weight="100"
-        a:textColor="#ddd"/>
+        a:textColor="#ddd" a:layout_marginRight="5dp" a:layout_marginLeft="5dp"/>
     <Button
         a:layout_width="100dp"
         a:layout_height="wrap_content"
