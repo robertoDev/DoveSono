@@ -18,6 +18,14 @@
         a:textColor="#fff"
         a:textSize="8dp"/>
     <TextView
+            a:text=""
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:textColor="#fff"
+            a:textSize="8dp"
+            a:id="@+id/txtVersion"
+            />
+    <TextView
         a:layout_width="match_parent"
         a:layout_height="wrap_content"
         a:text="@string/app_about"

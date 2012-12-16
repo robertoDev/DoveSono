@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory
+       android:summary="Parameters for GPS provider"
+       android:title="GPS preferences" >
+
+      <EditTextPreference
+         android:key="gpsMinTime"
+         android:summary="Minimum time interval between location updates, in milliseconds"
+         android:title="Minimum time"
+         android:numeric="integer"
+         android:maxLength="8"
+         android:defaultValue="10000"
+              />
+      <EditTextPreference
+         android:key="gpsMinDistance"
+         android:summary="Minimum distance between location updates, in meters"
+         android:title="Minimum distance"
+         android:numeric="integer"
+         android:maxLength="5"
+         android:defaultValue="10"
+              />
+     </PreferenceCategory>
+    <PreferenceCategory
+      android:summary="Parameters for network provider"
+      android:title="Network preferences" >
+
+     <EditTextPreference
+        android:key="networkMinTime"
+        android:summary="Minimum time interval between location updates, in milliseconds"
+        android:title="Minimum time"
+        android:numeric="integer"
+        android:maxLength="8"
+        android:defaultValue="30000"
+             />
+     <EditTextPreference
+        android:key="metworkMinDistance"
+        android:summary="Minimum distance between location updates, in meters"
+        android:title="Minimum distance"
+        android:numeric="integer"
+        android:maxLength="5"
+        android:defaultValue="100"
+             />
+    </PreferenceCategory>
+
+ </PreferenceScreen>

@@ -2,9 +2,15 @@ package it.blackcat.dovesono;
 
 import android.app.Activity;
 import android.app.Dialog;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
 import android.location.*;
 import android.os.Bundle;
+import android.preference.PreferenceActivity;
+import android.preference.PreferenceManager;
 import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -50,6 +56,8 @@ public class MainActivity extends Activity implements LocationListener, OnClickL
     int eventsN=0;      // contatore di eventi per provider Network
     int eventsG=0;      // contatore di eventi per provider GPS
 
+    boolean showingMap=false;   // quando la MainActivity viene stoppata per passare alla MapActivity il GeoManager non dev'essere stoppato!
+
     //----------------------------------------------------------------------------- LocationListener methods:
 
     public void onLocationChanged(Location currentLocation) {
@@ -83,6 +91,9 @@ public class MainActivity extends Activity implements LocationListener, OnClickL
             case R.id.imageLogo:
                 infoDialog.show();
                 break;
+            case R.id.ConfigIcon:
+                showConfig();
+                break;
 
             case R.id.buttonInfoOk:
                 infoDialog.cancel();
@@ -91,11 +102,16 @@ public class MainActivity extends Activity implements LocationListener, OnClickL
         }
     }
 
+    private void showConfig(){
+        Intent intent = new Intent(this, ShowPrefsActivity.class);
+         startActivity(intent);
+    }
 
     private void showMap(String provider){
         // visualizzo la mappa passandogli la mainLocation
         Intent ni=new Intent(this, MapActivity.class);
         ni.putExtra("provider",provider);
+        showingMap=true;
         startActivity(ni);
     }
 
@@ -105,10 +121,16 @@ public class MainActivity extends Activity implements LocationListener, OnClickL
         Log.d("*lifecycle*","onCreate");
         super.onCreate(savedInstanceState);
 
+        geoManager=new GeoManager((LocationManager)getSystemService(LOCATION_SERVICE), this);
         setContentView(R.layout.main);
+
+
+        PreferenceManager.setDefaultValues(this, R.xml.preferences, false);
+
         findViewById(R.id.buttonShowG).setOnClickListener(this);
         findViewById(R.id.buttonShowN).setOnClickListener(this);
         findViewById(R.id.imageLogo).setOnClickListener(this);
+        findViewById(R.id.ConfigIcon).setOnClickListener(this);
 
         // setup del dialog
         infoDialog = new Dialog(MainActivity.this);
@@ -116,6 +138,16 @@ public class MainActivity extends Activity implements LocationListener, OnClickL
         infoDialog.setTitle("About");
         infoDialog.setCancelable(true);
         infoDialog.findViewById(R.id.buttonInfoOk).setOnClickListener(this);
+
+        PackageInfo packageInfo;
+        String versionName="";
+        try {
+            packageInfo = getPackageManager().getPackageInfo(getPackageName(), 0);
+            versionName = "v " + packageInfo.versionName;
+        } catch (PackageManager.NameNotFoundException e) {
+            e.printStackTrace();
+        }
+        ((TextView)infoDialog.findViewById(R.id.txtVersion)).setText(versionName);
 
         // Verifico se sto ricreando un'istanza distrutta precedentemente:
         if (savedInstanceState != null) {
@@ -137,18 +169,22 @@ public class MainActivity extends Activity implements LocationListener, OnClickL
     protected void onStart() {
         Log.d("*lifecycle*","onStart");
         super.onStart();
+        traceStatus2();
     }
 
     @Override
     protected void onStop() {
         Log.d("*lifecycle*","onStop");
         super.onStop();
+        if( !showingMap) stopEvents();
     }
 
     @Override
     protected void onRestart() {
         Log.d("*lifecycle*","onRestart");
         super.onRestart();
+        if( !showingMap) startEvents();
+        showingMap=false;
     }
 
     @Override
@@ -188,16 +224,35 @@ public class MainActivity extends Activity implements LocationListener, OnClickL
      */
 
     GeoManager geoManager;
+
     void startEvents(){
 
-        geoManager=new GeoManager((LocationManager)getSystemService(LOCATION_SERVICE), this);
-
-
         //traceLocation(geoManager.getLastKnownLocation(),false, true);
+        SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
 
-        geoManager.start();
+        geoManager.start (
+                Long.parseLong(prefs.getString("gpsMinTime",String.valueOf(GeoManager.defGpsMinTime))),
+                Float.parseFloat(prefs.getString("gpsMinDistance",String.valueOf(GeoManager.defGpsMinDistance))),
+                Long.parseLong(prefs.getString("networkMinTime",String.valueOf(GeoManager.defNetworkMinTime))),
+                Float.parseFloat(prefs.getString("networkMinDistance",String.valueOf(GeoManager.defNetworkMinDistance)))
+        );
 
     }
+    void stopEvents(){
+        if(geoManager!=null) geoManager.stop();
+    }
+
+
+    private void traceStatus2(){
+        SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
+
+        displayField(R.id.txtMinTimeG,prefs.getString("gpsMinTime",String.valueOf(GeoManager.defGpsMinTime)));
+        displayField(R.id.txtMinDistG,prefs.getString("gpsMinDistance",String.valueOf(GeoManager.defGpsMinDistance)));
+
+        displayField(R.id.txtMinTimeN,prefs.getString("networkMinTime",String.valueOf(GeoManager.defNetworkMinTime)));
+        displayField(R.id.txtMinDistN,prefs.getString("networkMinDistance",String.valueOf(GeoManager.defNetworkMinDistance)));
+    }
+
 
     /**
      * visualizza lo stato dei providers

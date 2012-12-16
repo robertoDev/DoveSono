@@ -28,6 +28,12 @@
                 a:layout_weight="1"
                 a:autoText="false"
                 a:textColor="@android:color/primary_text_light"/>
+        <ImageView
+                a:src="@drawable/tools_icon"
+                a:layout_width="32dp"
+                a:layout_height="32dp"
+                a:layout_gravity="center"
+                a:id="@+id/ConfigIcon"/>
     </LinearLayout>
     <LinearLayout
             a:orientation="horizontal"
@@ -45,6 +51,7 @@
                 a:layout_height="wrap_content"
                 a:orientation="vertical"
                 a:paddingRight="3dp"
+                a:gravity="top"
                 >
             <TextView
                     a:textColor="#000"
@@ -74,9 +81,18 @@
                 a:layout_width="fill_parent"
                 a:layout_height="wrap_content">
             <TableRow>
+                <TextView style="@style/cellHead" a:text="@string/text_mintime"/>
+                <TextView style="@style/cellVal" a:id="@+id/txtMinTimeG" />
+            </TableRow>
+            <TableRow>
+                <TextView style="@style/cellHead" a:text="@string/text_mindist"/>
+                <TextView style="@style/cellVal" a:id="@+id/txtMinDistG" />
+            </TableRow>
+            <TableRow>
                 <TextView style="@style/cellHead" a:text="@string/text_status"/>
                 <TextView style="@style/cellVal" a:id="@+id/txtStatusG" />
             </TableRow>
+
             <TableRow>
                 <TextView style="@style/cellHead" a:text="@string/text_events"/>
                 <TextView style="@style/cellVal" a:id="@+id/txtEventsG" />
@@ -146,6 +162,14 @@
         <TableLayout
                 a:layout_width="fill_parent"
                 a:layout_height="wrap_content">
+            <TableRow>
+                <TextView style="@style/cellHead" a:text="@string/text_mintime"/>
+                <TextView style="@style/cellVal" a:id="@+id/txtMinTimeN" />
+            </TableRow>
+            <TableRow>
+                <TextView style="@style/cellHead" a:text="@string/text_mindist"/>
+                <TextView style="@style/cellVal" a:id="@+id/txtMinDistN" />
+            </TableRow>
             <TableRow>
                 <TextView style="@style/cellHead" a:text="@string/text_status"/>
                 <TextView style="@style/cellVal" a:id="@+id/txtStatusN" />

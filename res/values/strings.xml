@@ -2,13 +2,16 @@
     <string name="app_name">DoveSono?</string>
     <string name="app_about">DoveSono is a geolocalization app for monitoring GPS and Network location providers.\n It shows location attributes and displays them in Google Maps. Implements a simple algorithm to choose the best provider (displayed with green background)
 
-    </string><string name="copyright">2012 Blackcat Software</string><string name="confirm">Ok</string>
+    </string>
+    <string name="copyright">2012 Blackcat Software</string><string name="confirm">Ok</string>
 
 <!-- main layout -->
     <string name="text_gps">GPS</string>
     <string name="text_network">Network</string>
     <string name="text_show">Show</string>
     <!-- location properties table -->
+        <string name="text_mintime">min time</string>
+        <string name="text_mindist">min dist.</string>
         <string name="text_status">status</string>
         <string name="text_events">events</string>
         <string name="text_time">time</string>

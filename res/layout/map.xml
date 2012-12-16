@@ -48,4 +48,13 @@
         a:id="@+id/mapView"
         a:layout_width="fill_parent"
         a:layout_height="fill_parent" />
+
+    <!--com.google.android.maps.MapView
+            a:apiKey="07h-diInqw2KSroqzy2xURT4fdlYmrDq568zRFQ"
+            a:id="@+id/mapView"
+            a:layout_width="fill_parent"
+            a:layout_height="fill_parent" /-->
+
+
+
 </LinearLayout>
